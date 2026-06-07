@@ -1,0 +1,27 @@
+{
+  "posts_publicados": [
+    {
+      "zernio_id": "6a24a6a002a78559a38626e0",
+      "status": "published",
+      "criado_em": "2026-06-06T23:01:18.035Z",
+      "conteudo": "Carrossel: Voce jogou dinheiro no lixo? - 70% dos clientes nunca mais contatados",
+      "total_slides": 5,
+      "tipo": "carrossel"
+    },
+    {
+      "zernio_id": "6a24b70e8899ba9a16f18db9",
+      "status": "publishing",
+      "criado_em": "2026-06-07T00:10:54.478Z",
+      "conteudo": "Carrossel: Sua IA atende mais rapido que seu funcionario? - IA WhatsApp",
+      "total_slides": 5,
+      "tipo": "carrossel"
+    }
+  ],
+  "fila_agendamento": [],
+  "metricas": {
+    "total_posts": 2,
+    "total_curtidas": 0,
+    "total_comentarios": 0,
+    "total_alcance": 0
+  }
+}

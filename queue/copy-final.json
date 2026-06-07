@@ -1,0 +1,16 @@
+{
+  "data_criacao": "2026-06-06T23:36:00-03:00",
+  "formato": "carrossel",
+  "legenda": "Sua IA atende mais rapido que seu funcionario?\n\nA Meta lancou IA no WhatsApp que atende e vende 24h sem parar.\n\nEnquanto isso, o tempo medio de resposta de uma PME brasileira e de 30 minutos.\n\nO lead espera no maximo 5 minutos antes de desistir.\n\nA conta e simples: 30 min de espera = venda pro concorrente.\n\n40% dos leads sao perdidos so por causa de atendimento lento. Nao por preco. Nao por produto. Por demora.\n\nA ERA4 coloca um agente de IA no seu WhatsApp que:\n\n- Responde em segundos, 24 horas por dia\n- Qualifica o lead sem humano\n- Agenda a reuniao automaticamente\n- Segue up ate converter\n\nSua equipe foca em fechar. A IA cuida do resto.\n\nNao perca mais venda por demora. Fala com a ERA4. era4.com.br/contato",
+  "texto_alternativo": "Carrossel ERA4 sobre atendimento de IA no WhatsApp para PMEs",
+  "slides": [
+    {"numero": 1, "texto": "Sua IA atende mais rapido que seu funcionario?", "subtitulo": ""},
+    {"numero": 2, "texto": "5 min", "subtitulo": "e o maximo que um lead espera"},
+    {"numero": 3, "texto": "40%", "subtitulo": "dos leads sao perdidos por demora"},
+    {"numero": 4, "texto": "Agente de IA no WhatsApp", "subtitulo": "Responde | Qualifica | Agenda"},
+    {"numero": 5, "texto": "Nao perca mais venda", "subtitulo": "por demora"}
+  ],
+  "cta_final": "Fala com a ERA4 - era4.com.br/contato",
+  "hashtags": ["#automacao", "#ia", "#pme", "#era4", "#whatsapp", "#atendimento", "#vendas", "#agentedeia", "#empreendedorismo"],
+  "primeiro_comentario": "Esse dado de 40% e real. A maioria das PMEs perde venda por demora no atendimento, nao por preco. A automacao resolve."
+}

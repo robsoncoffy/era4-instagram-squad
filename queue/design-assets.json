@@ -1,0 +1,42 @@
+{
+  "data_criacao": "2026-06-06T23:35:00-03:00",
+  "slides_gerados": [
+    {
+      "numero": 1,
+      "arquivo_local": "~/era4-instagram-squad/assets/slide2_1.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide2_1.png",
+      "prompt_usado": "Hook: Sua IA atende mais rapido?",
+      "alt_text": "Slide 1 - Hook"
+    },
+    {
+      "numero": 2,
+      "arquivo_local": "~/era4-instagram-squad/assets/slide2_2.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide2_2.png",
+      "prompt_usado": "Dado: 5 min",
+      "alt_text": "Slide 2 - 5 min"
+    },
+    {
+      "numero": 3,
+      "arquivo_local": "~/era4-instagram-squad/assets/slide2_3.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide2_3.png",
+      "prompt_usado": "Dado: 40% perdidos",
+      "alt_text": "Slide 3 - 40%"
+    },
+    {
+      "numero": 4,
+      "arquivo_local": "~/era4-instagram-squad/assets/slide2_4.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide2_4.png",
+      "prompt_usado": "Solucao: Agente IA WhatsApp",
+      "alt_text": "Slide 4 - Solucao"
+    },
+    {
+      "numero": 5,
+      "arquivo_local": "~/era4-instagram-squad/assets/slide2_5.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide2_5.png",
+      "prompt_usado": "CTA: Falar com ERA4",
+      "alt_text": "Slide 5 - CTA"
+    }
+  ],
+  "total_slides": 5,
+  "erros": []
+}
