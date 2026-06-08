@@ -1,0 +1,45 @@
+{
+  "data_geracao": "2026-06-08T08:00:00-03:00",
+  "pautas": [
+    {
+      "id": 1,
+      "titulo": "Meta lancou IA no WhatsApp que atende e vende 24h sem parar",
+      "fonte": "Canaltech, Mundo do Marketing",
+      "relevancia": "Brasileiro espera no maximo 5 min antes de desistir da compra. PMEs perdem venda por demora no atendimento, nao por preco.",
+      "angulo_sugerido": "Mostrar o contraste entre IA atendendo em segundos vs PME demorando 30 min. Dado de 40% de leads perdidos por demora.",
+      "categoria": "tendencia"
+    },
+    {
+      "id": 2,
+      "titulo": "75% das PMEs brasileiras ainda nao usam IA",
+      "fonte": "Mobile Time / Startse",
+      "relevancia": "Maioria das PMEs esta ficando para tras. Quem adotar agora ganha vantagem competitiva antes de virar obrigatoriedade.",
+      "angulo_sugerido": "Urgencia: enquanto 75% nao usa, os 25% que usam estao faturando mais e gastando menos. Ser early adopter ou ficar para tras.",
+      "categoria": "dado"
+    },
+    {
+      "id": 3,
+      "titulo": "IA diagnostica financas de PME em 10 minutos",
+      "fonte": "Mtagora",
+      "relevancia": "Dono de PME nao tem tempo nem equipe pra analisar dados financeiros. IA faz isso em minutos e aponta onde esta perdendo dinheiro.",
+      "angulo_sugerido": "Voce sabe exatamente quanto esta perdendo por ineficiencia? IA descobre em 10 min o que levaria semanas pra um contador.",
+      "categoria": "ferramenta"
+    },
+    {
+      "id": 4,
+      "titulo": "Anthropic mira PMEs com Claude mais acessivel",
+      "fonte": "Anthropic / TechCrunch",
+      "relevancia": "Big techs brigando pelo mercado de PME significa que esta ficando barato e facil adotar IA. Janela de oportunidade.",
+      "angulo_sugerido": "Quando as grandes brigam pelo pequeno, o pequeno ganha poder de fogo. IA que antes era so de big tech agora cabe no orcamento de PME.",
+      "categoria": "tendencia"
+    },
+    {
+      "id": 5,
+      "titulo": "Brasil lidera adocao de IA na America Latina",
+      "fonte": "Monitor Mercantil",
+      "relevancia": "Pais avanca em IA mas a maioria das empresas brasileiras ainda esta no Excel e WhatsApp manual. Gap entre pais e empresa individual.",
+      "angulo_sugerido": "O pais esta correndo com IA. Sua empresa esta andando de bike. O abismo entre quem automatiza e quem nao automatiza so cresce.",
+      "categoria": "dado"
+    }
+  ]
+}

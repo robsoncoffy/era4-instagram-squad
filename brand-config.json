@@ -1,0 +1,53 @@
+{
+  "marca": "ERA4",
+  "tagline": "Infraestrutura digital, IA e Agentes para PMEs",
+  "site": "era4.com.br",
+  "publico": {
+    "perfil": "Dono de PME brasileira que quer diminuir custos e aumentar faturamento com tecnologia",
+    "dores": [
+      "Perde venda por demora no atendimento",
+      "Gasta com trafego pago sem retorno",
+      "Base de clientes fria, sem follow-up",
+      "Equipe pequena sobrecarregada",
+      "Processos manuais que consomem tempo",
+      "Nao sabe por onde comecar com IA"
+    ],
+    "desejos": [
+      "Vender mais sem contratar mais gente",
+      "Atender rapido 24h por dia",
+      "Automatizar tarefas repetitivas",
+      "Ter previsibilidade de receita",
+      "Competir com empresas maiores"
+    ]
+  },
+  "tom": {
+    "estilo": "Direto, sem bullshit, sem rodeio",
+    "nao_usar": [
+      "voce sabia que...",
+      "arrasta pro lado",
+      "comenta EU QUERO",
+      "link na bio",
+      "emojis excessivos",
+      "linguagem corporativa generica"
+    ],
+    "usar": [
+      "Dados e numeros concretos",
+      "Linguagem de conversa entre donos de empresa",
+      "Provocacoes que geram reflexao",
+      "Solucoes praticas e especificas"
+    ]
+  },
+  "identidade_visual": {
+    "fundo": "#0a0a0f (preto/azul muito escuro)",
+    "cor_primaria": "#3b82f6 (azul neon)",
+    "cor_secundaria": "#8b5cf6 (roxo)",
+    "cor_positivo": "#22c55e (verde)",
+    "cor_alerta": "#ef4444 (vermelho) ou #f97316 (laranja)",
+    "texto": "#f8fafc (branco)",
+    "fonte": "Sans-serif bold, centralizado",
+    "estilo": "Dark tech aesthetic, minimalista, clean"
+  },
+  "formato_preferido": "carrossel",
+  "total_slides_padrao": 5,
+  "cta_padrao": "Fala com a ERA4 - era4.com.br/contato"
+}

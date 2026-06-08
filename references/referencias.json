@@ -1,0 +1,42 @@
+{
+  "estilo_copy": {
+    "tom": "Direto, provocativo, baseado em dados",
+    "ganchos_eficazes": [
+      "Pergunta que gera desconforto",
+      "Numero chocante",
+      "Contraste antes/depois",
+      "Afirmativa que desafia o status quo"
+    ],
+    "exemplos_ganchos": [
+      "Sua IA atende mais rapido que seu funcionario?",
+      "70% dos seus clientes nunca mais foram contatados",
+      "Voce jogou R$ 50 mil no lixo do trafego pago",
+      "Contratei 3 vendedores sem contratar ninguem"
+    ]
+  },
+  "posts_anteriores": [
+    {
+      "tema": "Base de clientes fria",
+      "formato": "carrossel",
+      "slides": 5,
+      "gancho": "Voce jogou dinheiro no lixo?",
+      "dados_usados": ["70% nunca mais contatados", "R$ 50 mil desperdicados"],
+      "resultado": "Publicado com sucesso"
+    },
+    {
+      "tema": "IA no WhatsApp",
+      "formato": "carrossel",
+      "slides": 5,
+      "gancho": "Sua IA atende mais rapido que seu funcionario?",
+      "dados_usados": ["5 min limite do lead", "40% leads perdidos por demora"],
+      "resultado": "Em publicacao"
+    }
+  ],
+  "referencias_visuais": {
+    "estilo_base": "Dark tech, fundo #0a0a0f, texto branco centralizado, acentos em azul neon #3b82f6 e roxo #8b5cf6",
+    "slide_hook": "Texto grande centralizado, icone ou memoji no topo, fundo solido escuro",
+    "slide_dado": "Numero grande em cor vibrante + legenda abaixo",
+    "slide_solucao": "Fluxo visual simplificado ou checklist",
+    "slide_cta": "Gradiente mais vibrante, logo ERA4, botao visual"
+  }
+}

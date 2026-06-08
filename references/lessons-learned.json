@@ -1,0 +1,111 @@
+{
+  "aprendizados": [
+    {
+      "data": "2026-06-08",
+      "agente": "Designer",
+      "situacao": "DALL-E ignora cores hex, posicoes e texto no prompt",
+      "licao": "Nunca pedir texto/numero no prompt. Usar overlay PIL. Cores por descricao em ingles, nao hex. Incluir negativas 'NO white background' 2x.",
+      "fonte": "slide1_base.png gerado com fundo branco",
+      "aplicado": true
+    },
+    {
+      "data": "2026-06-08",
+      "agente": "Publicador",
+      "situacao": "Zernio API REST nao aceita URLs externas em mediaUrls",
+      "licao": "Sempre fazer upload via 'zernio media:upload' primeiro. Nunca passar URLs externas direto na API. Posts com media vazia ficam como draft.",
+      "fonte": "tentativa de publicacao via API REST",
+      "aplicado": true
+    },
+    {
+      "data": "2026-06-08",
+      "agente": "Designer",
+      "situacao": "gpt-image-1 retorna base64, nao URL",
+      "licao": "Decodificar base64 no Python. Timeout 120s. Gerar slide a slide, nunca em paralelo.",
+      "fonte": "erro 400 ao tentar baixar URL inexistente",
+      "aplicado": true
+    },
+    {
+      "data": "2026-06-08",
+      "agente": "Squad",
+      "situacao": "Nunca publicar/agendar sem aprovacao do Robson",
+      "licao": "Workflow obrigatorio: gerar -> mostrar -> aprovar -> publicar. Upload mostrado e aguardando aprovacao do Robson.",
+      "fonte": "Robson corrigiu publicacao sem consulta",
+      "aplicado": true
+    }
+  ],
+  "feedback_robson": [
+    {
+      "data": "2026-06-08",
+      "post": "slide3_concorrente_ia",
+      "veredito": "aprovacao_pendente",
+      "observacao": "Slide 3 cordoou. Pediu para ver antes de agendar."
+    },
+    {
+      "data": "2026-06-08",
+      "post": "slide2_atende_rapido",
+      "veredito": "publicado_sem_aprovacao",
+      "observacao": "A primeira versao foi publicada sem consulta — nao deve se repetir"
+    }
+  ],
+  "performance_posts": [
+    {
+      "slug": "voce_jogou_dinheiro_no_lixo",
+      "data_publicacao": "2026-06-07",
+      "impressions": 9,
+      "reach": 3,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saves": 0,
+      "clicks": 0,
+      "engagementRate": 0,
+      "melhor_elemento": "a_definir",
+      "pior_elemento": "a_definir"
+    },
+    {
+      "slug": "sua_ia_atende_mais_rapido",
+      "data_publicacao": "2026-06-07",
+      "impressions": 7,
+      "reach": 2,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saves": 0,
+      "clicks": 0,
+      "engagementRate": 0,
+      "melhor_elemento": "a_definir",
+      "pior_elemento": "a_definir"
+    },
+    {
+      "slug": "pme_70_base_inativa",
+      "data_publicacao": "2026-06-07",
+      "impressions": 8,
+      "reach": 2,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saves": 0,
+      "clicks": 0,
+      "engagementRate": 12.5,
+      "melhor_elemento": "a_definir",
+      "pior_elemento": "a_definir"
+    }
+  ],
+  "know_gaps": [
+    {
+      "topico": "conversao_story_para_lead",
+      "descricao": "Nao temos dados de quantos leads vieram de stories vs feed",
+      "urgencia": "media"
+    },
+    {
+      "topico": "horario_melhor_engajamento",
+      "descricao": "Nao testamos horarios sistematicamente. Dados do Zernio analytics:best-time nao foram consultados ainda.",
+      "urgencia": "baixa"
+    },
+    {
+      "topico": "performance_por_padrao_visual",
+      "descricao": "Nao rastreamos qual padrao visual (P1-P6) converte melhor. Experiment-log existe mas nao foi correlacionado com analytics ainda.",
+      "urgencia": "alta"
+    }
+  ]
+}

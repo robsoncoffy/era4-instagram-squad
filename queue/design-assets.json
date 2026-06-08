@@ -1,40 +1,40 @@
 {
-  "data_criacao": "2026-06-06T23:35:00-03:00",
+  "data_criacao": "2026-06-08T08:00:00-03:00",
   "slides_gerados": [
     {
       "numero": 1,
-      "arquivo_local": "~/era4-instagram-squad/assets/slide2_1.png",
-      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide2_1.png",
-      "prompt_usado": "Hook: Sua IA atende mais rapido?",
-      "alt_text": "Slide 1 - Hook"
+      "arquivo_local": "~/era4-instagram-squad/assets/slide3_1.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide3_1.png",
+      "prompt_usado": "Instagram carrossel post, 1:1 square format, modern dark tech aesthetic. Pitch black background #0a0...",
+      "alt_text": "Slide 1 - Hook: 75% das PMEs ainda nao usam IA"
     },
     {
       "numero": 2,
-      "arquivo_local": "~/era4-instagram-squad/assets/slide2_2.png",
-      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide2_2.png",
-      "prompt_usado": "Dado: 5 min",
-      "alt_text": "Slide 2 - 5 min"
+      "arquivo_local": "~/era4-instagram-squad/assets/slide3_2.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide3_2.png",
+      "prompt_usado": "Instagram carrossel post, 1:1 square format, modern dark tech aesthetic. Pitch black background #0a0...",
+      "alt_text": "Slide 2 - Problema: 30 min tempo medio de resposta"
     },
     {
       "numero": 3,
-      "arquivo_local": "~/era4-instagram-squad/assets/slide2_3.png",
-      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide2_3.png",
-      "prompt_usado": "Dado: 40% perdidos",
-      "alt_text": "Slide 3 - 40%"
+      "arquivo_local": "~/era4-instagram-squad/assets/slide3_3.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide3_3.png",
+      "prompt_usado": "Instagram carrossel post, 1:1 square format, modern dark tech aesthetic. Pitch black background #0a0...",
+      "alt_text": "Slide 3 - Dado: 40% dos leads perdidos por demora"
     },
     {
       "numero": 4,
-      "arquivo_local": "~/era4-instagram-squad/assets/slide2_4.png",
-      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide2_4.png",
-      "prompt_usado": "Solucao: Agente IA WhatsApp",
-      "alt_text": "Slide 4 - Solucao"
+      "arquivo_local": "~/era4-instagram-squad/assets/slide3_4.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide3_4.png",
+      "prompt_usado": "Instagram carrossel post, 1:1 square format, modern dark tech aesthetic. Pitch black background #0a0...",
+      "alt_text": "Slide 4 - Solucao: IA no WhatsApp fluxo Atende Qualifica Converte"
     },
     {
       "numero": 5,
-      "arquivo_local": "~/era4-instagram-squad/assets/slide2_5.png",
-      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide2_5.png",
-      "prompt_usado": "CTA: Falar com ERA4",
-      "alt_text": "Slide 5 - CTA"
+      "arquivo_local": "~/era4-instagram-squad/assets/slide3_5.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide3_5.png",
+      "prompt_usado": "Instagram carrossel post, 1:1 square format, modern dark tech aesthetic. Gradient background from de...",
+      "alt_text": "Slide 5 - CTA: Nao fique nos 75% - Fala com a ERA4"
     }
   ],
   "total_slides": 5,
