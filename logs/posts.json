@@ -23,11 +23,20 @@
       "conteudo": "Carrossel: 75% das PMEs ainda nao usam IA - dados de perda de leads e solucao de automacao",
       "total_slides": 5,
       "tipo": "carrossel"
+    },
+    {
+      "zernio_id": "6a26daea5d2fd8d53cec3a7c",
+      "status": "published",
+      "criado_em": "2026-06-08T15:08:26.403Z",
+      "publicado_em": "2026-06-08T15:09:19.360Z",
+      "conteudo": "Story: 75% das PMEs ainda nao usam IA - Você está nesse grupo?",
+      "tipo": "story",
+      "media_url": "https://media.zernio.com/temp/1780931153866_1kqpelrs_story_75pct.png"
     }
   ],
   "fila_agendamento": [],
   "metricas": {
-    "total_posts": 3,
+    "total_posts": 4,
     "total_curtidas": 0,
     "total_comentarios": 0,
     "total_alcance": 0
