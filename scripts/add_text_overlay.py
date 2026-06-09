@@ -58,23 +58,31 @@ except ImportError:
 # ── Configurações de fonte ──────────────────────────────────────────
 FONT_PATHS_BOLD = [
     "/System/Library/Fonts/Helvetica.ttc",
-    "/System/Library/Fonts/SFNSDisplay-Bold.otf",
-    "/System/Library/Fonts/SF-Pro-Text-Bold.otf",
-    "/Library/Fonts/Arial Bold.ttf",
+    "/System/Library/Fonts/HelveticaNeue.ttc",
+    "/System/Library/Fonts/SFNS.ttf",
+    "/System/Library/Fonts/SFNSRounded.ttf",
+    "/System/Library/Fonts/SFCompact.ttf",
 ]
 
 FONT_PATHS_REGULAR = [
     "/System/Library/Fonts/Helvetica.ttc",
-    "/System/Library/Fonts/SFNSDisplay-Regular.otf",
-    "/System/Library/Fonts/SF-Pro-Text-Regular.otf",
-    "/Library/Fonts/Arial.ttf",
+    "/System/Library/Fonts/HelveticaNeue.ttc",
+    "/System/Library/Fonts/SFNS.ttf",
+    "/System/Library/Fonts/SFNSRounded.ttf",
+    "/System/Library/Fonts/SFCompact.ttf",
 ]
 
 
-def find_font(paths, size):
-    for p in paths:
+def find_font(paths, size, style="regular"):
+    for i, p in enumerate(paths):
         if os.path.exists(p):
             try:
+                # Helvetica.ttc e HelveticaNeue.ttc são coleções — usar índice para bold/regular
+                if p.endswith(".ttc"):
+                    idx = 0
+                    if style == "bold" and i == 0:
+                        idx = 0  # Helvetica.ttc primeiro item muitas vezes é bold/regular
+                    return ImageFont.truetype(p, size, index=idx)
                 return ImageFont.truetype(p, size)
             except Exception:
                 continue
@@ -365,8 +373,8 @@ def main():
     cfg = SLIDE_CONFIGS.get(args.tipo, SLIDE_CONFIGS["default"])
 
     # ── Fontes ───────────────────────────────────────────────────────
-    font_main = find_font(FONT_PATHS_BOLD, cfg["text_size"])
-    font_sub = find_font(FONT_PATHS_REGULAR, cfg["sub_size"])
+    font_main = find_font(FONT_PATHS_BOLD, cfg["text_size"], style="bold")
+    font_sub = find_font(FONT_PATHS_REGULAR, cfg["sub_size"], style="regular")
 
     # ── Desenhar conforme o tipo ─────────────────────────────────────
     if args.tipo in ("lista", "checklist"):

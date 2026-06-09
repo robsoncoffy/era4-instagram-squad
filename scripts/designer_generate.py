@@ -4,6 +4,7 @@ import os
 import time
 import urllib.request
 import urllib.error
+from datetime import datetime, timezone, timedelta
 
 # Ler API key
 api_key = None
@@ -102,7 +103,7 @@ for slide in SLIDES:
 
 # Salvar resultado
 output = {
-    "data_criacao": "2026-06-08T08:00:00-03:00",
+    "data_criacao": datetime.now(timezone(timedelta(hours=-3))).isoformat(),
     "slides_gerados": results,
     "total_slides": len(results),
     "erros": erros

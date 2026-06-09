@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "zernio_id": "6a24ca0d8a2680aed872e301",
+      "instagram_id": "18010601267885790",
+      "slug": "pme_70_base_inativa",
+      "data_publicacao": "2026-06-07T01:32:38.000Z",
+      "url": "https://www.instagram.com/p/DZRC9bHDIxi/",
+      "tipo": "carrossel",
+      "tema": "75% das PMEs brasileiras ainda nao usam IA"
+    },
+    {
+      "zernio_id": "6a24d4d02b2567671a086b98",
+      "instagram_id": "18166143061435375",
+      "slug": "sua_ia_atende_mais_rapido",
+      "data_publicacao": "2026-06-07T01:04:19.000Z",
+      "url": "https://www.instagram.com/p/DZQ_tMaAuD2/",
+      "tipo": "carrossel",
+      "tema": "Sua IA atende mais rapido que seu funcionario"
+    },
+    {
+      "zernio_id": "6a24bf852b2567671a0697aa",
+      "instagram_id": "18124441303640589",
+      "slug": "concorrente_ja_usa_ia",
+      "data_publicacao": "2026-06-07T00:11:39.000Z",
+      "url": "https://www.instagram.com/p/DZQ5sG7jIG3/",
+      "tipo": "carrossel",
+      "tema": "Seu concorrente ja usa IA no WhatsApp"
+    }
+  ]
+}

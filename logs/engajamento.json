@@ -1,0 +1,28 @@
+{
+  "data": "2026-06-08T19:00:00.000Z",
+  "acoes": {
+    "comentarios_respondidos": 0,
+    "curtidas_realizadas": 0,
+    "follows_de_volta": 0,
+    "dms_enviadas": 0,
+    "leads_identificados": 0
+  },
+  "posts_monitorados": [
+    {
+      "slug": "pme_70_base_inativa",
+      "instagram_id": "18010601267885790",
+      "comentarios_novos": 0
+    },
+    {
+      "slug": "sua_ia_atende_mais_rapido",
+      "instagram_id": "18166143061435375",
+      "comentarios_novos": 0
+    },
+    {
+      "slug": "concorrente_ja_usa_ia",
+      "instagram_id": "18124441303640589",
+      "comentarios_novos": 0
+    }
+  ],
+  "observacao": "Nenhum comentário novo nos posts monitorados."
+}

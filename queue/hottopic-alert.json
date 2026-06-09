@@ -1,9 +1,9 @@
 {
-  "data": "ISO_DATE",
-  "urgencia": "alta|media|baixa",
-  "tema": "Descrição do hottopic",
-  "fonte": "URL ou referência",
-  "sugestao_formato": "estatico|carrossel|story",
-  "sugestao_hook": "Hook sugerido",
-  "expira_em": "ISO_DATE (quando o tema perde relevância)"
+  "data": null,
+  "urgencia": null,
+  "tema": null,
+  "fonte": null,
+  "sugestao_formato": null,
+  "sugestao_hook": null,
+  "expira_em": null
 }
