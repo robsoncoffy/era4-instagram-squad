@@ -26,6 +26,16 @@
       "url": "https://www.instagram.com/p/DZQ5sG7jIG3/",
       "tipo": "carrossel",
       "tema": "Seu concorrente ja usa IA no WhatsApp"
+    },
+    {
+      "zernio_id": "6a2893dc2f8f466560b118af",
+      "instagram_id": "18074589587460588",
+      "slug": "story_40_leads_perdidos",
+      "data_publicacao": "2026-06-09T22:29:48.000Z",
+      "tipo": "story",
+      "tem": "40% dos leads sao perdidos por demora",
+      "imagem_local": "assets/story_1.png",
+      "media_url": "https://media.zernio.com/temp/1781043517819_j9ibres4_story_1.png"
     }
   ]
 }

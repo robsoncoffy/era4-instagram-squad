@@ -1,12 +1,66 @@
 import base64
 import json
 import os
+import sys
 import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone, timedelta
 
+# --- Download de fotos reais (P7 e P8) ---
+
+def download_unsplash_photo(query, output_path, w=1024, h=1024):
+    """Baixa foto do Unsplash Source (não precisa de API key).
+    Unsplash Source: https://source.unsplash.com/{w}x{h}/?{query}
+    """
+    url = f"https://source.unsplash.com/{w}x{h}/?{query}"
+    print(f"  Baixando foto: {url}")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        # Unsplash Source redireciona para a foto real — seguir redirects
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            # A URL final contém a foto
+            final_url = resp.url
+            # Agora baixar a imagem da URL final
+            with urllib.request.urlopen(final_url, timeout=60) as img_resp:
+                img_data = img_resp.read()
+                if len(img_data) < 1000:
+                    print(f"  ⚠ Foto muito pequena ({len(img_data)} bytes), tentando alternativa...")
+                    return False
+                with open(output_path, "wb") as f:
+                    f.write(img_data)
+                print(f"  ✅ Foto salva: {output_path} ({len(img_data)} bytes)")
+                return True
+    except Exception as e:
+        print(f"  ❌ Erro ao baixar foto: {e}")
+        return False
+
+def download_unsplash_photo_api(query, output_path, api_key=None):
+    """Alternativa: usa Unsplash API se houver access key configurada."""
+    if api_key:
+        url = f"https://api.unsplash.com/search/photos?query={query}&per_page=1&orientation=square"
+        try:
+            req = urllib.request.Request(url, headers={
+                "Authorization": f"Client-ID {api_key}",
+                "User-Agent": "Mozilla/5.0"
+            })
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                result = json.loads(resp.read())
+            if result["results"]:
+                img_url = result["results"][0]["urls"]["regular"]
+                with urllib.request.urlopen(img_url, timeout=60) as img_resp:
+                    img_data = img_resp.read()
+                with open(output_path, "wb") as f:
+                    f.write(img_data)
+                print(f"  ✅ Foto Unsplash API salva: {output_path} ({len(img_data)} bytes)")
+                return True
+        except Exception as e:
+            print(f"  ❌ Erro Unsplash API: {e}")
+    return False
+
 # Ler API key
+
+unsplash_key = None
 api_key = None
 with open(os.path.expanduser("~/era4-instagram-squad/.env")) as f:
     for line in f:
@@ -18,7 +72,20 @@ if not api_key:
     print("ERRO: OPENAI_API_KEY nao encontrada")
     exit(1)
 
+# Tentar ler Unsplash key (opcional — se não tiver, usa Unsplash Source)
+with open(os.path.expanduser("~/era4-instagram-squad/.env")) as f:
+    for line in f:
+        if "UNSPLASH_ACCESS_KEY" in line and "=" in line:
+            unsplash_key = line.strip().split("=", 1)[1].strip()
+            break
+
+unsplash_key = unsplash_key if unsplash_key and unsplash_key != "your_key_here" else None
+
 print(f"API key encontrada: {api_key[:10]}...")
+if unsplash_key:
+    print(f"Unsplash key encontrada: {unsplash_key[:8]}...")
+else:
+    print("Unsplash key não configurada — usando Unsplash Source (sem key)")
 
 # Config
 ASSETS_DIR = os.path.expanduser("~/era4-instagram-squad/assets")

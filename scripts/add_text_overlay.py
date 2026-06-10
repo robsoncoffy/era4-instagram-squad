@@ -106,6 +106,9 @@ COLORS = {
     "vermelho": (239, 68, 68),
     "cinza": (148, 163, 184),
     "branco": (248, 250, 252),
+    "lime": (132, 204, 22),
+    "verde_lime": (132, 204, 22),
+    "verde-limao": (132, 204, 22),
 }
 
 
@@ -212,6 +215,16 @@ SLIDE_CONFIGS = {
         "sub_color": "gray",
         "glow": False,
     },
+    "foto": {
+        "text_size": 52,
+        "text_y": 0.25,
+        "text_color": "white",
+        "sub_size": 28,
+        "sub_y": 0.75,
+        "sub_color": "gray",
+        "glow": False,
+        "overlay_foto": True,
+    },
 }
 
 
@@ -311,9 +324,18 @@ def draw_list(draw, img_w, img_h, y_ratio, text, font, color_name,
 
 
 def apply_foto_overlay(img):
-    """Aplica escurecimento 50% pra modo overlay-foto."""
-    overlay = Image.new("RGBA", img.size, (10, 10, 15, 128))
-    return Image.alpha_composite(img, overlay)
+    """Aplica escurecimento assimétrico: lado esquerdo mais escuro (60%),
+    lado direito mais claro (30%). Gradiente horizontal suave.
+    Ideal para layout P7: texto à esquerda, foto visível à direita.
+    """
+    w, h = img.size
+    overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    draw = ImageDraw.Draw(overlay)
+    for x in range(w):
+        # Gradiente: esquerda opaca (alpha 153 = 60%) -> direita translúcida (alpha 77 = 30%)
+        alpha = int(153 - (x / w) * 76)
+        draw.line([(x, 0), (x, h)], fill=(10, 10, 15, alpha))
+    return Image.alpha_composite(img.convert("RGBA"), overlay)
 
 
 def main():
@@ -324,7 +346,7 @@ def main():
     parser.add_argument("--subtitulo", default="", help="Subtítulo ou apoio")
     parser.add_argument("--tipo", default="default",
                         choices=["hook", "dado", "problema", "consequencia",
-                                 "lista", "checklist", "solucao", "cta", "default"],
+                                 "lista", "checklist", "solucao", "cta", "foto", "default"],
                         help="Tipo do slide")
     parser.add_argument("--highlight", default="", help="Palavra para highlight")
     parser.add_argument("--highlight-cor", default="blue", help="Cor do highlight")
@@ -363,8 +385,8 @@ def main():
 
     img = Image.alpha_composite(img, overlay)
 
-    # ── Overlay foto (se pedido) ─────────────────────────────────────
-    if args.overlay_foto:
+    # ── Overlay foto (se pedido ou tipo=foto) ──────────────────────────
+    if args.overlay_foto or args.tipo == "foto":
         img = apply_foto_overlay(img)
 
     draw = ImageDraw.Draw(img)
