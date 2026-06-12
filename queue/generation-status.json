@@ -1,0 +1,22 @@
+{
+  "slide_1": {
+    "success": true,
+    "path": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_1_base.png"
+  },
+  "slide_2": {
+    "success": true,
+    "path": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_2_base.png"
+  },
+  "slide_3": {
+    "success": true,
+    "path": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_3_base.png"
+  },
+  "slide_4": {
+    "success": true,
+    "path": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_4_base.png"
+  },
+  "slide_5": {
+    "success": true,
+    "path": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_5_base.png"
+  }
+}

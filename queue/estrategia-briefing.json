@@ -1,46 +1,19 @@
 {
-  "data_criacao": "2026-06-08T08:00:00-03:00",
-  "pauta_original_id": 2,
+  "data_criacao": "2026-06-12T10:00:00-03:00",
+  "pauta_original": "Meta lançou IA no WhatsApp que atende e vende 24h sem parar",
+  "pauta_original_id": 1,
   "formato": "carrossel",
-  "titulo": "75% das PMEs ainda nao usam IA",
-  "angulo": "Enquanto a maioria das PMEs brasileiras ainda opera no manual (Excel, WhatsApp pessoal, follow-up na cabeca), uma minoria de 25% ja esta usando IA para automatizar atendimento, vendas e operacoes. Esse gap nao e so tecnologico e financeiro: quem adotar agora ganha vantagem antes que vire obrigatoriedade. O post provoca o dono de PME a se posicionar: voce quer estar nos 75% que estao ficando para tras ou nos 25% que estao faturando mais com menos?",
-  "tom_especifico": "Tom de urgencia real, sem alarmismo. Fale como quem ja viu esse filme antes: quem demorou para adotar tecnologia perdeu mercado. Use dados concretos e contraste entre os dois grupos. Nao seja condescendente — o dono de PME sabe que precisa mudar, so nao sabe por onde comecar.",
-  "estrutura": {
-    "total_slides": 5,
-    "slides": [
-      {
-        "numero": 1,
-        "tipo": "hook",
-        "funcao": "Parar o scroll com dado chocante que gera desconforto",
-        "direcao_criativa": "Numero grande '75%' em destaque com texto provocativo. O leitor precisa sentir que isso tem a ver com ele. Texto: '75% das PMEs ainda nao usam IA' — simples, direto, impossivel de ignorar."
-      },
-      {
-        "numero": 2,
-        "tipo": "problema",
-        "funcao": "Mostrar o que acontece com quem nao automatiza",
-        "direcao_criativa": "Contraste visual: operacao manual vs automatizada. Mostre as dores reais — atendimento lento, follow-up que nao acontece, dinheiro gasto em trafego sem conversao. Use icones de alerta em vermelho/laranja."
-      },
-      {
-        "numero": 3,
-        "tipo": "dado",
-        "funcao": "Provar com numero que IA gera resultado real",
-        "direcao_criativa": "Dado concreto de reducao de custo ou aumento de faturamento. Numero grande em verde neon. Ex: '40% reducao em custo de atendimento' ou '3x mais leads qualificados'. O dado precisa ser especifico e credible."
-      },
-      {
-        "numero": 4,
-        "tipo": "solucao",
-        "funcao": "Mostrar como a ERA4 resolve isso de forma pratica",
-        "direcao_criativa": "Fluxo simplificado: WhatsApp com IA -> Atendimento 24h -> Qualificacao automatica -> Equipe foca em fechar. Visual limpo com setas e icones. Mostre que e simples implementar."
-      },
-      {
-        "numero": 5,
-        "tipo": "cta",
-        "funcao": "Call to action — falar com a ERA4",
-        "direcao_criativa": "Gradiente mais vibrante (azul para roxo), texto direto 'Nao fique nos 75%', logo ERA4, CTA claro. Senso de urgencia: 'Enquanto voce pensa, seu concorrente ja automatizou.'"
-      }
-    ]
+  "slides": 5,
+  "angulo": "Big techs estão automatizando atendimento e vendas 24h. PMEs que ainda dependem de atendimento manual estão perdendo leads, vendas e competitividade. O gap entre quem usa IA e quem não usa está virando abismo.",
+  "tom": "urgente",
+  "storytelling": {
+    "hook": "A Meta acabou de lançar uma IA que atende, qualifica e vende 24h no WhatsApp. Sua PME ainda faz isso no boca a boca?",
+    "problema": "Enquanto big techs automatizam tudo, PMEs perdem lead por demora no atendimento. O cliente espera 5 minutos no máximo. Depois, vai pro concorrente.",
+    "consequencia": "Cada lead perdido = venda fechada pelo concorrente. 40% das vendas são perdidas por resposta lenta. Base de clientes inativa. Dinheiro saindo pelo ralo.",
+    "solucao": "Automatizar atendimento e qualificação com IA não é mais coisa de big tech. A ERA4 implanta agentes de atendimento no WhatsApp em 48h — resposta em 3s, zero leads perdidos, operação 24h.",
+    "cta": "Fala com a ERA4 — era4.com.br/contato"
   },
-  "referencias_visuais": "Fundo pitch black #0a0a0f em todos os slides. Slide 1: numero '75%' gigante em azul neon #3b82f6 centralizado, texto branco abaixo. Slide 2: layout split com lado esquerdo em vermelho/laranja (problemas) e lado direito em verde (solucoes). Slide 3: numero grande em verde neon #22c55e com grafico de barras ascendente. Slide 4: fluxo horizontal com 4 boxes conectados por setas, icones minimalistas. Slide 5: gradiente azul-roxo vibrante, texto branco bold, elemento de botao visual. Todos os slides: font sans-serif bold, texto centralizado, sem clutter.",
-  "hashtags_sugeridas": ["#automacao", "#ia", "#inteligenciaartificial", "#pme", "#empreendedorismo", "#agentedeia", "#era4", "#transformacaodigital", "#vendas", "#produtividade"],
-  "cta": "Nao fique nos 75%. Fala com a ERA4 — era4.com.br/contato"
+  "referencias_visuais": "Carrossel escuro padrão ERA4. Slide 1: Foto de empresário preocupado olhando o celular com overlay escuro + texto hook à esquerda (layout P7/P11). Slides 2-4: Fundo dark #0a0a0f com tipografia grande, dados em azul neon, ícones de métricas. Slide 5: CTA com botão rosa #ec4899 'Fala com a ERA4'. Paleta: fundo escuro, azul neon #3b82f6, branco, verde #22c55e, rosa #ec4899. Ícones de métricas no slide 4: '24h atendendo', '0 leads perdidos', 'Resposta em 3s'.",
+  "hashtags_sugeridas": ["#automacao", "#ia", "#pme", "#agentesIA", "#era4", "#whatsapp", "#vendas", "#atendimento"],
+  "observacoes": "Formato NOTÍCIA com gancho emocional. Tom urgente, não didático. O leitor precisa sentir que está ficando para trás AGORA. Formato P11 no slide 1 (pessoa + métricas laterais + CTA rosa). Referência: empresário olhando o celular com preocupação. Contraste visual entre o poder da IA da Meta e a fragilidade do atendimento manual da PME."
 }
