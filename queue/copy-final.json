@@ -1,47 +1,40 @@
 {
-  "data_geracao": "2026-06-12T10:05:00-03:00",
-  "pauta_origem": "Meta lançou IA no WhatsApp que atende e vende 24h sem parar",
-  "formato": "carrossel",
-  "hook_principal": "A Meta acabou de lançar uma IA que atende, qualifica e vende 24h no WhatsApp. Sua PME ainda faz isso no boca a boca?",
-  "legenda": "A Meta acabou de lançar uma IA que atende, qualifica e vende 24h no WhatsApp.\n\nEnquanto isso, 75% das PMEs brasileiras ainda dependem de atendimento manual.\n\nO cliente espera no máximo 5 minutos. Depois, vai pro concorrente.\n\nCada lead perdido é uma venda que você não recupera.\n\nAutomatizar atendimento com IA não é mais coisa de big tech.\n\nA ERA4 implanta agentes de atendimento no WhatsApp em 48h.\n\nResposta em 3s. Zero leads perdidos. Operação 24h.\n\nFala com a ERA4 — era4.com.br/contato\n\n#automacao #ia #pme #agentesIA #era4 #whatsapp #vendas #atendimento",
-  "texto_alternativo": "Carrossel sobre IA da Meta no WhatsApp e como PMEs estão ficando para trás sem automação de atendimento",
+  "data_geracao": "2026-06-12",
+  "pauta_origem": "IA diagnostica finanças de PME em 10 minutos",
+  "formato": "estatico",
+  "hook_principal": "Sua IA descobre em 10 minutos o que seu contador leva semanas pra encontrar",
+  "legenda": "Sua IA descobre em 10 minutos o que seu contador leva semanas pra encontrar.\n\nA maioria das PMEs só descobre que está sangrando dinheiro quando já é tarde. Fechamento do mês demora. Relatório de contador demora mais. E no meio tempo, você tomando decisão no escuro.\n\nUma IA treinada com os seus dados financeiros identifica padrões, gargalos e oportunidades em minutos — não em semanas.\n\nNão é consultoria cara. Não é planilha que ninguém lê. É diagnóstico rápido, claro, acionável.\n\nSegundo dados da Mtagora, empresas que usam IA para análise financeira reduzem o tempo de diagnóstico em até 90%.\n\nFala com a ERA4 e descubra quanto tempo (e dinheiro) você está perdendo sem isso.\n\n#inteligenciaartificial #automacao #pme #gestaoFinanceira #IA #era4 #transformacaodigital #financasPME #agentesIA #dados",
+  "texto_alternativo": "Post estático com fundo escuro tech. Texto centralizado: 'Sua IA descobre em 10 minutos o que seu contador leva semanas pra encontrar'. Destaque em azul neon na palavra '10 minutos'. Rodapé com 'Fala com a ERA4' em azul. Pequeno texto no topo: 'via Mtagora'.",
   "copy": {
-    "carrossel": {
-      "slides": [
+    "estatico": {
+      "blocks": [
         {
           "numero": 1,
-          "tipo": "hook",
-          "texto_principal": "A Meta lancou uma IA que atende e vende 24h no WhatsApp",
-          "subtitulo": "Sua PME ainda faz isso no boca a boca?"
+          "tipo": "headline",
+          "texto_principal": "Sua IA descobre em 10 minutos o que seu contador leva semanas",
+          "apoio": "Via Mtagora"
         },
         {
           "numero": 2,
-          "tipo": "dado",
-          "texto_principal": "40%",
-          "subtitulo": "das vendas sao perdidas por resposta lenta"
-        },
-        {
-          "numero": 3,
-          "tipo": "consequencia",
-          "texto_principal": "RESPOSTA EM 30 MIN\nLEAD DESISTIU\nVENDA PRO CONCORRENTE",
-          "subtitulo": "Cada minuto conta"
-        },
-        {
-          "numero": 4,
-          "tipo": "solucao",
-          "texto_principal": "24H ATENDENDO\n0 LEADS PERDIDOS\nRESPOSTA EM 3 SEGUNDOS",
-          "subtitulo": "E possivel com IA"
-        },
-        {
-          "numero": 5,
           "tipo": "cta",
-          "texto_principal": "FALA COM A ERA4",
-          "subtitulo": "era4.com.br/contato"
+          "texto_principal": "Fala com a ERA4",
+          "apoio": "era4.com.br/contato"
         }
       ]
     }
   },
-  "cta_final": "Fala com a ERA4 — era4.com.br/contato",
-  "hashtags": ["#automacao", "#ia", "#pme", "#agentesIA", "#era4", "#whatsapp", "#vendas", "#atendimento"],
-  "primeiro_comentario": "Sua IA responde em quantos segundos? Se for mais que 5, você já perdeu o lead."
+  "cta_final": "Fala com a ERA4",
+  "hashtags": [
+    "#inteligenciaartificial",
+    "#automacao",
+    "#pme",
+    "#gestaoFinanceira",
+    "#IA",
+    "#era4",
+    "#transformacaodigital",
+    "#financasPME",
+    "#agentesIA",
+    "#dados"
+  ],
+  "primeiro_comentario": "Segundo a Mtagora, empresas usando IA para diagnóstico financeiro reduzem o tempo de análise em até 90%. O link t\u00e1 na bio."
 }

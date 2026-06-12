@@ -9,6 +9,16 @@
       "resultado_visual": "pendente",
       "feedback_robson": "pendente",
       "consolidar": false
+    },
+    {
+      "data": "2026-06-12",
+      "post_id": "ia-diagnostica-financas-pme-10min",
+      "padrao_base": "P3-tipografia-pura",
+      "elemento_testado": null,
+      "descricao": "Post estático P3: fundo dark tech com textura sutil de circuitos. Headline centralizada em branco bold. CTA 'Fala com a ERA4' em azul neon no rodapé. Sem foto, sem personagem — tipografia como elemento principal.",
+      "resultado_visual": "bom",
+      "feedback_robson": "pendente",
+      "consolidar": false
     }
   ],
   "padrao_atual": {

@@ -1,19 +1,18 @@
 {
-  "data_criacao": "2026-06-12T10:00:00-03:00",
-  "pauta_original": "Meta lançou IA no WhatsApp que atende e vende 24h sem parar",
+  "data_criacao": "2026-06-12",
+  "pauta_original": "IA diagnostica finanças de PME em 10 minutos",
   "pauta_original_id": 1,
-  "formato": "carrossel",
-  "slides": 5,
-  "angulo": "Big techs estão automatizando atendimento e vendas 24h. PMEs que ainda dependem de atendimento manual estão perdendo leads, vendas e competitividade. O gap entre quem usa IA e quem não usa está virando abismo.",
-  "tom": "urgente",
+  "fonte": "Mtagora",
+  "angulo": "Dono de PME não sabe que tem problema financeiro até ser tarde. A IA descobre em 10 minutos o que o contador leva semanas pra mostrar. Posicionar ERA4 como a solução que traz clareza financeira com velocidade — sem precisar de time de dados, sem consultoria cara, sem esperar o fechamento do mês.",
+  "formato": "estatico",
+  "slides": 1,
   "storytelling": {
-    "hook": "A Meta acabou de lançar uma IA que atende, qualifica e vende 24h no WhatsApp. Sua PME ainda faz isso no boca a boca?",
-    "problema": "Enquanto big techs automatizam tudo, PMEs perdem lead por demora no atendimento. O cliente espera 5 minutos no máximo. Depois, vai pro concorrente.",
-    "consequencia": "Cada lead perdido = venda fechada pelo concorrente. 40% das vendas são perdidas por resposta lenta. Base de clientes inativa. Dinheiro saindo pelo ralo.",
-    "solucao": "Automatizar atendimento e qualificação com IA não é mais coisa de big tech. A ERA4 implanta agentes de atendimento no WhatsApp em 48h — resposta em 3s, zero leads perdidos, operação 24h.",
-    "cta": "Fala com a ERA4 — era4.com.br/contato"
+    "hook": "Sua IA descobre em 10 minutos o que seu contador leva semanas pra encontrar",
+    "problema": "PMEs tomam decisões no escuro porque análise financeira é lenta, cara e complexa",
+    "solucao": "IA que diagnostica finanças em minutos — e mostra exatamente onde agir",
+    "cta": "Fala com a ERA4"
   },
-  "referencias_visuais": "Carrossel escuro padrão ERA4. Slide 1: Foto de empresário preocupado olhando o celular com overlay escuro + texto hook à esquerda (layout P7/P11). Slides 2-4: Fundo dark #0a0a0f com tipografia grande, dados em azul neon, ícones de métricas. Slide 5: CTA com botão rosa #ec4899 'Fala com a ERA4'. Paleta: fundo escuro, azul neon #3b82f6, branco, verde #22c55e, rosa #ec4899. Ícones de métricas no slide 4: '24h atendendo', '0 leads perdidos', 'Resposta em 3s'.",
-  "hashtags_sugeridas": ["#automacao", "#ia", "#pme", "#agentesIA", "#era4", "#whatsapp", "#vendas", "#atendimento"],
-  "observacoes": "Formato NOTÍCIA com gancho emocional. Tom urgente, não didático. O leitor precisa sentir que está ficando para trás AGORA. Formato P11 no slide 1 (pessoa + métricas laterais + CTA rosa). Referência: empresário olhando o celular com preocupação. Contraste visual entre o poder da IA da Meta e a fragilidade do atendimento manual da PME."
+  "tom": "educativo",
+  "visual": "P3 (tipografia pura, fundo escuro #0a0a0f, frase de impacto centralizada, máximo 12 palavras na arte)",
+  "observacoes": "Formato estático: 1 imagem, 1024x1024. Prioridade no visual P3 (tipografia pura) com fundo dark tech. Headline principal ocupa o centro da arte. CTA 'Fala com a ERA4' em azul neon no rodapé. A fonte: Mtagora deve aparecer sutilmente como referência na arte ou na legenda. Tom educativo: não vender, mostrar valor."
 }

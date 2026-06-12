@@ -1,0 +1,16 @@
+{
+  "veredito": "APROVADO",
+  "score": 88,
+  "motivo_principal": "Post estático forte, legível, alinhado ao briefing. Hook poderoso, visual dark tech coerente com ERA4, CTA presente.",
+  "problemas": [
+    "Headline na arte é longa (~13 palavras) — limite briefing era 12. Recomendo testar versão reduzida: 'Sua IA descobre em 10 minutos o que seu contador leva semanas' (12 palavras).",
+    "Fonte 'via Mtagora' não foi incluída na arte — deve constar comoCrédito sutil no topo (cinza, 18px).",
+    "Legenda com 802 chars — bem abaixo do limite de 2000. Pode expandir com mais contexto ou dado da Mtagora."
+  ],
+  "acoes": [
+    "Considerar encurtar headline para 12 palavras na arte",
+    "Adicionar 'via Mtagora' como crédito sutil no topo da arte",
+    "Legenda pode ser expandida com mais dados da Mtagora para reforçar credibilidade"
+  ],
+  "liberar_publicacao": true
+}
