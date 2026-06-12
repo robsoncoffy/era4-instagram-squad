@@ -1,11 +1,18 @@
 {
-  "experimentos": [],
+  "experimentos": [
+    {
+      "data": "2026-06-12",
+      "post_id": "meta-ia-whatsapp-noticia",
+      "padrao_base": "P11-foto-overlay",
+      "elemento_testado": "P11 no slide 1 com empresário preocupado + CTA rosa no slide 5",
+      "descricao": "Slide 1 com foto de empresário olhando celular com preocupação + overlay escuro assimétrico. Slides 2-4 fundo dark com tipografia. Slide 5 CTA com botão rosa.",
+      "resultado_visual": "pendente",
+      "feedback_robson": "pendente",
+      "consolidar": false
+    }
+  ],
   "padrao_atual": {
-    "slide_1": "personagem-3d",
-    "slide_2": "numero-gigante-azul",
-    "slide_3": "lista-icones-laranja",
-    "slide_4": "checklist-verde",
-    "slide_5": "gradient-cta"
+    "estatico": "tipografia-pura"
   },
   "proximo_teste": null
 }

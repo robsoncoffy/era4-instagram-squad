@@ -1,42 +1,55 @@
 {
-  "data_criacao": "2026-06-08T08:00:00-03:00",
-  "slides_gerados": [
+  "data_geracao": "2026-06-12T10:10:00-03:00",
+  "formato": "carrossel",
+  "padrao_visual_usado": "P11-foto-overlay-slide1_P3-dark-slides2-5",
+  "experimento_ativo": null,
+  "total_slides": 5,
+  "slides": [
     {
       "numero": 1,
-      "arquivo_local": "~/era4-instagram-squad/assets/slide3_1.png",
-      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide3_1.png",
-      "prompt_usado": "Instagram carrossel post, 1:1 square format, modern dark tech aesthetic. Pitch black background #0a0...",
-      "alt_text": "Slide 1 - Hook: 75% das PMEs ainda nao usam IA"
+      "tipo": "hook",
+      "arquivo_base": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_1_base.png",
+      "arquivo_final": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_1.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_1.png",
+      "prompt_usado": "Instagram post 1:1 square. Dark tech cinematic composition. Deep black background, NO white background, NO light background. Businessman silhouette looking at smartphone screen, worried expression implied by posture. Dark moody atmosphere, subtle blue and purple ambient glow from the phone screen illuminating the figure. Professional attire, office environment barely visible. NO text, NO letters, NO numbers, NO words, NO logos. Dramatic side lighting, cinematic quality.",
+      "alt_text": "Slide 1 do carrossel sobre IA da Meta no WhatsApp — hook"
     },
     {
       "numero": 2,
-      "arquivo_local": "~/era4-instagram-squad/assets/slide3_2.png",
-      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide3_2.png",
-      "prompt_usado": "Instagram carrossel post, 1:1 square format, modern dark tech aesthetic. Pitch black background #0a0...",
-      "alt_text": "Slide 2 - Problema: 30 min tempo medio de resposta"
+      "tipo": "dado",
+      "arquivo_base": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_2_base.png",
+      "arquivo_final": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_2.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_2.png",
+      "prompt_usado": "Instagram post 1:1 square. Minimalist dark tech background. Deep black, NO white background, NO light background, NO bright elements. Very subtle abstract tech pattern: faint circuit traces or node connections, opacity 10%, barely visible. Slight vignette at edges. NO text, NO letters, NO numbers, NO words, NO logos.",
+      "alt_text": "Slide 2 do carrossel sobre IA da Meta no WhatsApp — dado"
     },
     {
       "numero": 3,
-      "arquivo_local": "~/era4-instagram-squad/assets/slide3_3.png",
-      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide3_3.png",
-      "prompt_usado": "Instagram carrossel post, 1:1 square format, modern dark tech aesthetic. Pitch black background #0a0...",
-      "alt_text": "Slide 3 - Dado: 40% dos leads perdidos por demora"
+      "tipo": "consequencia",
+      "arquivo_base": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_3_base.png",
+      "arquivo_final": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_3.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_3.png",
+      "prompt_usado": "Instagram post 1:1 square. Dark tech illustration, moody atmosphere. Deep black background, NO white background, NO light background. Subtle orange/amber glow in one corner, warning signal atmosphere. Abstract dark composition with faint geometric shapes. NO text, NO letters, NO numbers, NO words, NO logos.",
+      "alt_text": "Slide 3 do carrossel sobre IA da Meta no WhatsApp — consequencia"
     },
     {
       "numero": 4,
-      "arquivo_local": "~/era4-instagram-squad/assets/slide3_4.png",
-      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide3_4.png",
-      "prompt_usado": "Instagram carrossel post, 1:1 square format, modern dark tech aesthetic. Pitch black background #0a0...",
-      "alt_text": "Slide 4 - Solucao: IA no WhatsApp fluxo Atende Qualifica Converte"
+      "tipo": "solucao",
+      "arquivo_base": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_4_base.png",
+      "arquivo_final": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_4.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_4.png",
+      "prompt_usado": "Instagram post 1:1 square. Dark tech solution background, clean and professional. Deep black background, NO white background, NO light background. Subtle green glow accents, feeling of growth and automation. Abstract dark composition, very faint grid pattern barely visible. NO text, NO letters, NO numbers, NO words, NO logos.",
+      "alt_text": "Slide 4 do carrossel sobre IA da Meta no WhatsApp — solucao"
     },
     {
       "numero": 5,
-      "arquivo_local": "~/era4-instagram-squad/assets/slide3_5.png",
-      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide3_5.png",
-      "prompt_usado": "Instagram carrossel post, 1:1 square format, modern dark tech aesthetic. Gradient background from de...",
-      "alt_text": "Slide 5 - CTA: Nao fique nos 75% - Fala com a ERA4"
+      "tipo": "cta",
+      "arquivo_base": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_5_base.png",
+      "arquivo_final": "/Users/robsoncoffy/era4-instagram-squad/assets/slide_5.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_5.png",
+      "prompt_usado": "Instagram post 1:1 square. Dark tech background with pink/magenta accent glow. Deep black, NO white background, NO light background. Subtle pink-purple gradient ambient glow from bottom right corner. Professional and clean composition. NO text, NO letters, NO numbers, NO words, NO logos.",
+      "alt_text": "Slide 5 do carrossel sobre IA da Meta no WhatsApp — cta"
     }
   ],
-  "total_slides": 5,
   "erros": []
 }
