@@ -19,10 +19,36 @@
       "resultado_visual": "bom",
       "feedback_robson": "pendente",
       "consolidar": false
+    },
+    {
+      "data": "2026-06-16",
+      "post_id": "44-pme-usam-ia-f6-numero-gigante",
+      "padrao_base": "F6-numero-gigante-contraste",
+      "elemento_testado": "F6 — Número Gigante com Contraste (44% vs 65,7%)",
+      "descricao": "Post estático com número '44%' ocupando posição dominante (140px azul neon), texto de apoio branco, e contraste '65,7% ainda não usam' em laranja. Fundo dark tech com grid sutil e arcos decorativos. Imagem base gerada via Pillow (OpenAI billing limit).",
+      "resultado_visual": "pendente",
+      "feedback_robson": "pendente",
+      "consolidar": false
+    },
+    {
+      "data": "2026-06-23",
+      "post_id": "businessai-whatsapp-noticia-carrossel",
+      "padrao_base": "F1-diagnostico-adaptado",
+      "elemento_testado": "null",
+      "descricao": "Carrossel 5 slides: F1 adaptado para notícia (Business AI WhatsApp). Slide 1: hook com celular não respondido. Slide 2: dado 200M+ empresas. Slide 3: comparativo custo vs grátis. Slide 4: consequência. Slide 5: CTA. Imagens base geradas via Pillow (gpt-image-1 billing esgotado). Overlay PIL aplicado em todos os slides.",
+      "resultado_visual": "pendente",
+      "feedback_robson": "pendente",
+      "consolidar": false
     }
   ],
   "padrao_atual": {
-    "estatico": "tipografia-pura"
+    "estatico": "F6-numero-gigante-contraste",
+    "carrossel": "F1-diagnostico-adaptado"
   },
-  "proximo_teste": null
+  "proximo_teste": {
+    "elemento": "F7-case-timeline",
+    "slide": 1,
+    "descricao": "Testar F7 (Case Timeline) com Pauta 2 (case TechSolve: R$47k → R$142k em 8 meses). Carrossel 6 slides com timeline mês a mês.",
+    "semana": "2026-W25"
+  }
 }

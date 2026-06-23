@@ -1,19 +1,73 @@
 {
-  "data_geracao": "2026-06-12",
-  "formato": "estatico",
-  "padrao_visual_usado": "tipografia-pura",
-  "experimento_ativo": null,
-  "total_slides": 1,
+  "data_geracao": "2026-06-23T08:30:00-03:00",
+  "formato": "carrossel",
+  "padrao_visual_usado": "F1-diagnostico-adaptado-noticia",
+  "experimento_ativo": "null",
+  "total_slides": 5,
   "slides": [
     {
       "numero": 1,
       "tipo": "hook",
-      "arquivo_base": "~/era4-instagram-squad/assets/estatico_02_base.png",
-      "arquivo_final": "~/era4-instagram-squad/assets/estatico_02.png",
-      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/estatico_02.png",
-      "prompt_usado": "Instagram post 1:1 square. Minimalist dark tech background, abstract composition. Pitch black background, NO white background, NO light background, NO bright elements. Very subtle abstract tech pattern: faint circuit traces or node connections, opacity 10-15%, barely visible, dark charcoal on black. No dominant visual element — background texture and atmosphere only. Slight vignette at edges, darker toward corners. NO text, NO letters, NO numbers, NO words, NO logos.",
-      "alt_text": "Post estático fundo escuro tech. Texto centralizado: 'Sua IA descobre em 10 minutos o que seu contador leva semanas'. Destaque em azul neon na palavra '10 minutos'. Rodapé com 'Fala com a ERA4' em azul."
+      "arquivo_base": "~/era4-instagram-squad/assets/slide_1_base.png",
+      "arquivo_final": "~/era4-instagram-squad/assets/slide_1.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_1.png",
+      "prompt_usado": "Dark tech background #0a0a0f with subtle blue glow. Phone icon with message bubbles and red X. Clock icon. Gerado via Pillow (billing OpenAI esgotado).",
+      "alt_text": "Slide 1: Celular com mensagens não respondidas e relógio. Fundo escuro tech."
+    },
+    {
+      "numero": 2,
+      "tipo": "dado",
+      "arquivo_base": "~/era4-instagram-squad/assets/slide_2_base.png",
+      "arquivo_final": "~/era4-instagram-squad/assets/slide_2.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_2.png",
+      "prompt_usado": "Dark tech background with floating holographic icons and central AI node. Gerado via Pillow.",
+      "alt_text": "Slide 2: Ícones flutuantes de automação e IA conectados a um nó central."
+    },
+    {
+      "numero": 3,
+      "tipo": "comparacao",
+      "arquivo_base": "~/era4-instagram-squad/assets/slide_3_base.png",
+      "arquivo_final": "~/era4-instagram-squad/assets/slide_3.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_3.png",
+      "prompt_usado": "Split composition: left red warning vs right green solution. VS circle in center. Gerado via Pillow.",
+      "alt_text": "Slide 3: Comparativo lado a lado. Esquerda vermelho (custo), direita verde (solução grátis)."
+    },
+    {
+      "numero": 4,
+      "tipo": "consequencia",
+      "arquivo_base": "~/era4-instagram-squad/assets/slide_4_base.png",
+      "arquivo_final": "~/era4-instagram-squad/assets/slide_4.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_4.png",
+      "prompt_usado": "Clock dissolving into particles. Person silhouette walking away. Urgency mood. Gerado via Pillow.",
+      "alt_text": "Slide 4: Relógio se desfazendo em partículas. Silhueta de pessoa andando para longe."
+    },
+    {
+      "numero": 5,
+      "tipo": "cta",
+      "arquivo_base": "~/era4-instagram-squad/assets/slide_5_base.png",
+      "arquivo_final": "~/era4-instagram-squad/assets/slide_5.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_5.png",
+      "prompt_usado": "Dark gradient with connected nodes representing automation network. Gerado via Pillow.",
+      "alt_text": "Slide 5: Nós conectados representando automação. CTA Fala com a ERA4."
     }
   ],
-  "erros": []
+  "stories": [
+    {
+      "numero": 8,
+      "tipo": "dica",
+      "arquivo_final": "~/era4-instagram-squad/assets/story_8.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/story_8.png",
+      "alt_text": "Story dica: Business AI no WhatsApp - o que é"
+    },
+    {
+      "numero": 9,
+      "tipo": "cta",
+      "arquivo_final": "~/era4-instagram-squad/assets/story_9.png",
+      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/story_9.png",
+      "alt_text": "Story CTA: Fala com a ERA4"
+    }
+  ],
+  "erros": [
+    "gpt-image-1 billing_hard_limit_reached - fallback para Pillow"
+  ]
 }

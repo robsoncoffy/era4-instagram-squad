@@ -1,40 +1,64 @@
 {
-  "data_geracao": "2026-06-12",
-  "pauta_origem": "IA diagnostica finanças de PME em 10 minutos",
-  "formato": "estatico",
-  "hook_principal": "Sua IA descobre em 10 minutos o que seu contador leva semanas pra encontrar",
-  "legenda": "Sua IA descobre em 10 minutos o que seu contador leva semanas pra encontrar.\n\nA maioria das PMEs só descobre que está sangrando dinheiro quando já é tarde. Fechamento do mês demora. Relatório de contador demora mais. E no meio tempo, você tomando decisão no escuro.\n\nUma IA treinada com os seus dados financeiros identifica padrões, gargalos e oportunidades em minutos — não em semanas.\n\nNão é consultoria cara. Não é planilha que ninguém lê. É diagnóstico rápido, claro, acionável.\n\nSegundo dados da Mtagora, empresas que usam IA para análise financeira reduzem o tempo de diagnóstico em até 90%.\n\nFala com a ERA4 e descubra quanto tempo (e dinheiro) você está perdendo sem isso.\n\n#inteligenciaartificial #automacao #pme #gestaoFinanceira #IA #era4 #transformacaodigital #financasPME #agentesIA #dados",
-  "texto_alternativo": "Post estático com fundo escuro tech. Texto centralizado: 'Sua IA descobre em 10 minutos o que seu contador leva semanas pra encontrar'. Destaque em azul neon na palavra '10 minutos'. Rodapé com 'Fala com a ERA4' em azul. Pequeno texto no topo: 'via Mtagora'.",
+  "data_geracao": "2026-06-23T08:15:00-03:00",
+  "pauta_origem": "Meta libera Business AI no WhatsApp — e mata seu chatbot terceirizado",
+  "formato": "carrossel",
+  "hook_principal": "Seu cliente mandou mensagem ontem a noite. A resposta saiu hoje de manha.",
+  "legenda": "Seu cliente mandou mensagem ontem a noite. A resposta saiu hoje de manha.\n\nEm fevereiro de 2026 a Meta lancou o Business AI no WhatsApp Brasil. Atendimento 24h. Recomendacao de catalogo. Respostas automaticas treinadas com os seus dados.\n\nSem custo extra. Sem plataforma terceirizada. Sem pagar Blip, Kommo ou RD Station.\n\n200 milhoes de empresas ja usam WhatsApp. Open rate de 98%. Conversoes ate 60%.\n\nSe o seu cliente ja ta no WhatsApp e voce nao esta vendendo por ali, tem um vazamento silencioso de receita.\n\nA ERA4 ativa e integra o Business AI no seu funil. Sem complicacao.\n\nFala com a ERA4 — era4.com.br/contato\n\n#era4 #ia #whatsapp #automacao #pme #agentesIA #chatbot #vendas #businessai",
+  "texto_alternativo": "Carrossel de 5 slides sobre Business AI no WhatsApp. Slide 1 mostra contraste de tempo. Slide 2 mostra dados de 200M empresas e 98% open rate. Slide 3 compara custo de chatbot vs Business AI gratuito. Slide 4 mostra risco de nao agir. Slide 5 CTA Fala com a ERA4.",
   "copy": {
-    "estatico": {
-      "blocks": [
+    "carrossel": {
+      "slides": [
         {
           "numero": 1,
-          "tipo": "headline",
-          "texto_principal": "Sua IA descobre em 10 minutos o que seu contador leva semanas",
-          "apoio": "Via Mtagora"
+          "tipo": "hook",
+          "texto_principal": "Seu cliente mandou mensagem ontem a noite",
+          "subtitulo": "A resposta saiu hoje de manha"
+        },
+        {
+          "numero": 2,
+          "tipo": "dado",
+          "texto_principal": "200M+ empresas ja usam WhatsApp",
+          "subtitulo": "Open rate de 98%. Conversoes ate 60%"
+        },
+        {
+          "numero": 3,
+          "tipo": "comparacao",
+          "texto_principal": "Voce paga R$300/mes em chatbot",
+          "subtitulo": "A Meta entregou a mesma coisa de graca"
+        },
+        {
+          "numero": 4,
+          "tipo": "consequencia",
+          "texto_principal": "Cada mensagem sem resposta",
+          "subtitulo": "e uma venda que vai pro concorrente"
+        },
+        {
+          "numero": 5,
+          "tipo": "cta",
+          "texto_principal": "Business AI no seu funil",
+          "subtitulo": "Fala com a ERA4"
+        }
+      ]
+    },
+    "estatico": null,
+    "stories": {
+      "frames": [
+        {
+          "numero": 1,
+          "tipo": "abertura",
+          "texto_principal": "Business AI no WhatsApp — o que e",
+          "apoio": "IA nativa do WhatsApp Business. Responde 24h, recomenda produto, fecha atendimento. Sem pagar nada a mais por isso. Ja ativou o seu?"
         },
         {
           "numero": 2,
           "tipo": "cta",
-          "texto_principal": "Fala com a ERA4",
-          "apoio": "era4.com.br/contato"
+          "texto_principal": "Se voce tem WhatsApp Business e nao ativou a IA",
+          "apoio": "ta literalmente deixando dinheiro na mesa. Chama a ERA4 que a gente configura e integra pro seu funil."
         }
       ]
     }
   },
-  "cta_final": "Fala com a ERA4",
-  "hashtags": [
-    "#inteligenciaartificial",
-    "#automacao",
-    "#pme",
-    "#gestaoFinanceira",
-    "#IA",
-    "#era4",
-    "#transformacaodigital",
-    "#financasPME",
-    "#agentesIA",
-    "#dados"
-  ],
-  "primeiro_comentario": "Segundo a Mtagora, empresas usando IA para diagnóstico financeiro reduzem o tempo de análise em até 90%. O link t\u00e1 na bio."
+  "cta_final": "Fala com a ERA4 — era4.com.br/contato",
+  "hashtags": ["#era4", "#ia", "#whatsapp", "#automacao", "#pme", "#agentesIA", "#chatbot", "#vendas", "#businessai"],
+  "primeiro_comentario": "A Forbes estima que Business AI no WhatsApp corta tempo de resposta em 80%. Quem responde em segundos fecha mais. Fonte: olhardigital.com.br"
 }

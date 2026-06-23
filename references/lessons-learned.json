@@ -31,6 +31,14 @@
       "licao": "Workflow obrigatorio: gerar -> mostrar -> aprovar -> publicar. Upload mostrado e aguardando aprovacao do Robson.",
       "fonte": "Robson corrigiu publicacao sem consulta",
       "aplicado": true
+    },
+    {
+      "data": "2026-06-23",
+      "agente": "Designer",
+      "situacao": "gpt-image-1 retorna billing_hard_limit_reached",
+      "licao": "Quando gpt-image-1 falhar por billing, usar Pillow como fallback para gerar imagem base (gradient + grid + elementos geometricos). Aplicar overlay PIL normalmente. Qualidade visual eh inferior mas copy forte compensa. Registrar no experiment-log e priorizar recarga de creditos.",
+      "fonte": "pipeline noticia 23/06 - 5 slides + 2 stories gerados via Pillow",
+      "aplicado": true
     }
   ],
   "feedback_robson": [
@@ -106,6 +114,25 @@
       "topico": "performance_por_padrao_visual",
       "descricao": "Nao rastreamos qual padrao visual (P1-P6) converte melhor. Experiment-log existe mas nao foi correlacionado com analytics ainda.",
       "urgencia": "alta"
+    },
+    {
+      "topico": "formato_F6_F7_testar",
+      "descricao": "F6 (Numero Gigante com Contraste) e F7 (Case Timeline) foram catalogados pelo Radar em jun/2026 mas ainda nao foram testados na pratica. Proxima semana e oportunidade.",
+      "urgencia": "alta"
+    }
+  ],
+  "radar_insights": [
+    {
+      "data": "2026-06-14",
+      "briefing": "semana_14-20_junho",
+      "insight": "Posts anteriores (7/jun) tiveram engajamento proximo de zero (0-1 likes, reach 2-3). O formato 'Dado Gigante' (estatico com numero grande) ainda nao foi testado com dados reais. A Pauta 1 do briefing (44% usam IA) e candidata ideal. O case da TechSolve (Pauta 2) se encaixa no formato 'Diagnostico' (F1) ja catalogado. Recomendacao: priorizar Pautas 1 e 2 esta semana e testar F6 (Numero Gigante com Contraste).",
+      "acao_sugerida": "Testar F6 com Pauta 1 (dado 44%) e F1 com Pauta 2 (case TechSolve). Correlacionar padrao visual com metricas de engajamento do Zernio."
+    },
+    {
+      "data": "2026-06-21",
+      "briefing": "semana_21-26_junho",
+      "insight": "Engajamento zero persiste (semana 7/jun). Hipotese: posts eram genericos (definicao de IA, base inativa), sem dor especifica do PME. Esta semana: todas as pautas comecam com dado concreto ou cenario que geracao identificacao imediata. F6 (Numero Gigante com Contraste) e a candidata ideal para Pauta 1 (Gartner 40%). F1 (Diagnostico) para Pauta 2 (WhatsApp Business AI). Se nao paramos o scroll com dado, nao paramos com achismo.",
+      "acao_sugerida": "Testar F6 com Pauta 1 (dado 44%->40% contraste) e F1 com Pauta 2 (WhatsApp Business AI). Correlacionar padrao visual com metricas de saves/shares do Zernio. Se F6 nao gerar saves, o problema e a pauta, nao o formato."
     }
   ]
 }

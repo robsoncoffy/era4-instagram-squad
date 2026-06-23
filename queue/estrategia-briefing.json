@@ -1,18 +1,16 @@
 {
-  "data_criacao": "2026-06-12",
-  "pauta_original": "IA diagnostica finanças de PME em 10 minutos",
-  "pauta_original_id": 1,
-  "fonte": "Mtagora",
-  "angulo": "Dono de PME não sabe que tem problema financeiro até ser tarde. A IA descobre em 10 minutos o que o contador leva semanas pra mostrar. Posicionar ERA4 como a solução que traz clareza financeira com velocidade — sem precisar de time de dados, sem consultoria cara, sem esperar o fechamento do mês.",
-  "formato": "estatico",
-  "slides": 1,
+  "data_criacao": "2026-06-23T08:00:00-03:00",
+  "pauta_original": "Meta libera Business AI no WhatsApp — e mata seu chatbot terceirizado",
+  "pauta_original_id": 2,
+  "angulo": "Comparacao direta: operacao manual atual vs Business AI nativo. O dono de PME esta pagando R$200-500/mes em chatbot enquanto a Meta entregou a mesma coisa de graca dentro do WhatsApp. A dor e o desperdicio silencioso.",
+  "formato": "carrossel",
+  "slides": 5,
   "storytelling": {
-    "hook": "Sua IA descobre em 10 minutos o que seu contador leva semanas pra encontrar",
-    "problema": "PMEs tomam decisões no escuro porque análise financeira é lenta, cara e complexa",
-    "solucao": "IA que diagnostica finanças em minutos — e mostra exatamente onde agir",
-    "cta": "Fala com a ERA4"
+    "hook": "Seu cliente mandou mensagem ontem a noite. A resposta saiu hoje de manha.",
+    "problema": "Enquanto voce paga R$300/mes em chatbot, a Meta entregou Business AI de graca no WhatsApp",
+    "solucao": "Business AI nativo: resposta em 2s, recomendacao de catalogo, sem custo extra",
+    "cta": "Fala com a ERA4 — era4.com.br/contato"
   },
-  "tom": "educativo",
-  "visual": "P3 (tipografia pura, fundo escuro #0a0a0f, frase de impacto centralizada, máximo 12 palavras na arte)",
-  "observacoes": "Formato estático: 1 imagem, 1024x1024. Prioridade no visual P3 (tipografia pura) com fundo dark tech. Headline principal ocupa o centro da arte. CTA 'Fala com a ERA4' em azul neon no rodapé. A fonte: Mtagora deve aparecer sutilmente como referência na arte ou na legenda. Tom educativo: não vender, mostrar valor."
+  "tom": "urgente",
+  "observacoes": "Noticia real com fontes: Olha Digital (fev/2026) + Invent. Formato F1 adaptado para carrossel de noticia. Slide 1: hook com contraste de tempo (ontem a noite vs hoje de manha). Slide 2: dado 200M+ empresas + 98% open rate. Slide 3: comparativo custo (R$300/mes vs graça). Slide 4: o risco de nao agir. Slide 5: CTA direto. Fontes: Forbes, Olha Digital, useinvent.com. Dados: 200M+ empresas, 98% open rate, conversoes ate 60%, US$45B em vendas via WhatsApp em 2026."
 }
