@@ -1,4 +1,4 @@
-# QC Review
+# QC Review — 2026-06-29
 
 ## Veredito
 APROVADO
@@ -7,20 +7,20 @@ APROVADO
 78
 
 ## Motivo principal
-Copy forte com hook de dor real do PME. Progressão hook → dado → comparativo → consequência → CTA está coerente. Overlay PIL aplicado corretamente. Imagens base via Pillow (fallback) mas texto compensa.
+Copy forte e alinhado ao briefing F7 (Case Timeline). Hook para o scroll com dado concreto (30%). Progressão narrativa clara: problema → solução → resultado → lição. CTA natural sem ser pedante. Imagens via Pillow fallback mas qualidade adequada.
 
 ## Pontos positivos
-- Hook "Seu cliente mandou mensagem ontem a noite" gera identificação imediata
-- Dado "200M+ empresas" com número grande funciona bem
-- Comparativo R$300/mes vs graça é claro e gera incômodo
-- CTA direto: "Fala com a ERA4"
-- Legenda coerente com slides
-- Stories complementam o carrossel
+- Hook com dado concreto ("30% do dia") — para o scroll
+- Progressão em 5 slides com tensão crescente
+- Tom educativo sem ser aula chata
+- CTA no último slide com lição, não com pedido desesperado
+- Primeiro comentário reforça o argumento
+- Copy respeita limite de caracteres por slide
 
 ## Pontos de atenção
-- Slide 4 (consequência): visual abstrato pode não comunicar em 1 segundo
-- Qualidade visual das imagens base inferior (Pillow vs gpt-image-1)
-- Slide 3: layout comparativo mais simples que P5 consolidado
+- Imagens base geradas via Pillow fallback (gpt-image-1 billing esgotado)
+- Sem validação visual por vision_analyze (créditos insuficientes — análise estrutural apenas)
+- Score 78 reflete incerteza visual — aprovação condicional
 
 ## Ação
-Liberar para publicação. Registrar fallback Pillow no experiment-log. Recarregar OpenAI antes do próximo post.
+Liberar para publicação aguardando aprovação do Robson. Após 48h: extrair métricas e comparar com hipótese F7 (retention > 50% = formato validado).

@@ -32,10 +32,66 @@
       "instagram_id": "18074589587460588",
       "slug": "story_40_leads_perdidos",
       "data_publicacao": "2026-06-09T22:29:48.000Z",
+      "url": null,
       "tipo": "story",
-      "tem": "40% dos leads sao perdidos por demora",
+      "tema": "40% dos leads sao perdidos por demora",
       "imagem_local": "assets/story_1.png",
       "media_url": "https://media.zernio.com/temp/1781043517819_j9ibres4_story_1.png"
+    },
+    {
+      "zernio_id": "6a29d0db376fc995ad940656",
+      "instagram_id": "18074736203460588",
+      "slug": "story_30_min_resposta_pme",
+      "data_publicacao": "2026-06-10T21:02:19.000Z",
+      "url": null,
+      "tipo": "story",
+      "tema": "30 minutos e o tempo medio de resposta de uma PME no WhatsApp",
+      "imagem_local": "assets/story_2.png",
+      "media_url": "https://media.zernio.com/temp/1781125318255_4bdve0uz_story_2.png"
+    },
+    {
+      "zernio_id": "6a2ace43a03d312fe9ad9b88",
+      "instagram_id": "18074833994460588",
+      "slug": "story_70_clientes_sem_followup",
+      "data_publicacao": "2026-06-11T15:03:31.000Z",
+      "url": null,
+      "tipo": "story",
+      "tema": "70% dos clientes nunca mais contatados por falta de follow-up",
+      "imagem_local": "assets/story_3.png",
+      "media_url": "https://media.zernio.com/temp/1781190177478_vzv7wpku_story_3.png"
+    },
+    {
+      "zernio_id": "6a2b22a444cee83da6bef8e7",
+      "instagram_id": "18074871194460588",
+      "slug": "story_ia_whatsapp_atende_qualifica_converte",
+      "data_publicacao": "2026-06-11T21:03:32.000Z",
+      "url": null,
+      "tipo": "story",
+      "tema": "IA no WhatsApp: Atende | Qualifica | Converte",
+      "imagem_local": "assets/story_4.png",
+      "media_url": "https://media.zernio.com/media/1781211785329_jhjetf27_story_4.png"
+    },
+    {
+      "zernio_id": "6a2c751eaeb1ede92de5e330",
+      "instagram_id": "18075011819460588",
+      "slug": "story_ia_diagnostica_financas_10min",
+      "data_publicacao": "2026-06-12T21:07:42.000Z",
+      "url": null,
+      "tipo": "story",
+      "tema": "IA diagnostica financas de PME em 10 minutos",
+      "imagem_local": "assets/story_5.png",
+      "media_url": "https://media.zernio.com/media/1781298421650_hthc5fpu_story_5.png"
+    },
+    {
+      "zernio_id": "6a2f178ec2f9cc245b8d5911",
+      "instagram_id": "18075304592460588",
+      "slug": "story_r300_perda_diaria_whatsapp",
+      "data_publicacao": "2026-06-14T21:05:57.507989+00:00",
+      "url": null,
+      "tipo": "story",
+      "tema": "R$300 por dia e o que a PME perde sem automatizar WhatsApp com IA",
+      "imagem_local": "assets/story_6.png",
+      "media_url": "https://media.zernio.com/media/1781471082920_d1h6b746_story_6.png"
     }
   ]
 }

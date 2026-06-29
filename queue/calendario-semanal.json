@@ -1,0 +1,241 @@
+{
+  "calendario_id": "calendario-2026-06-29",
+  "semana": "29/06 a 05/07/2026",
+  "planejado_em": "2026-06-28T20:00:00-03:00",
+  "baseado_em": "radar-2026-06-28, lessons-learned.json, formatos-tendencia.md",
+  "nota_estrategica": "Semana de validacao empirica: F7 (Case Timeline) e F6 (Numero Gigante com Contraste) NUNCA foram testados. Se F7 gerar retention >50%, e nosso formato de conversao primario. Se F6 gerar >5 saves, dado+contraste = stop scroll validado. Terca e quarta diagnosticos de dor especifica (piloto falha, WhatsApp limitado) para corrigir o problema de 'posts genericos = engajamento zero'.",
+
+  "dias": [
+    {
+      "dia": "segunda",
+      "data": "2026-06-29",
+      "tipo": "planejado",
+      "formato": "carrossel",
+      "formato_slug": "case-timeline",
+      "total_slides": 5,
+      "pauta_id": 3,
+      "titulo_carrossel": "Clínica com 8 funcionários ganhou +22% em agendamentos com IA",
+      "tema": "Case real: clínica veterinária transformou atendimento no WhatsApp com IA agêntica, liberou atendente para recepção e aumentou agendamentos em 22%",
+      "briefing_formatado": {
+        "tom": "educativo",
+        "hook_sugerido": "comparacao",
+        "hook_texto": "Sua atendente perde 30% do dia no WhatsApp. Uma clínica com 8 funcionários resolveu isso e ganhou 22% mais agendamentos.",
+        "estrutura_slides": [
+          "Slide 1 (Hook): Resultado final — '+22% agendamentos | 8 funcionários | 3 semanas para implementar'",
+          "Slide 2 (Problema): Atendente gastava 30% do dia respondindo WhatsApp. Fila de mensagens, cliente esperando, agendamento perdido.",
+          "Slide 3 (Solução): Chatbot IA integrado ao agendamento. 24h, 7 dias. Transferência só para caso complexo. Atendente liberada para recepção.",
+          "Slide 4 (Resultado): +22% agendamentos em 6 semanas. Atendente virou recepção full-time. Zero cliente esperando.",
+          "Slide 5 (Lição + CTA): 'Não é sobre trocar gente por máquina. É sobre liberar gente pra que a máquina não faz.' → Fala com a ERA4"
+        ],
+        "cta_final": "Sua operacao tem uma atendente perdendo tempo com WhatsApp? A ERA4 resolve isso. era4.com.br/contato",
+        "referencias_visuais": "F7 — Case Timeline (nunca testado). Timeline visual de evolução. Numeros grandes em cada slide. Dark tech aesthetic da ERA4.",
+        "notas": "Caso real verificável (EuthopIA publicou como portfolio). F7 NUNCA FOI TESTADO — esta eh a oportunidade. Clínica de 8 funcionários = retrato exato do cliente ERA4. Se retention < 50%, revisar se o case eh proximo o sufufficiente do publico."
+      },
+      "stories": [
+        {
+          "hora": "12h",
+          "tipo": "dado",
+          "tema": "Perda de tempo no WhatsApp",
+          "texto": "30% do dia da sua atendente é respondendo mensagem repetida. Isso dá ~24h por semana."
+        },
+        {
+          "hora": "18h",
+          "tipo": "cta",
+          "tema": "Case dia — clínica +22% agendamentos",
+          "texto": "Uma clínica eliminou a fila do WhatsApp e ainda vendeu mais. Tempo médio de implementação: 3 a 6 semanas."
+        }
+      ]
+    },
+    {
+      "dia": "terca",
+      "data": "2026-06-30",
+      "tipo": "planejado",
+      "formato": "noticia",
+      "formato_slug": "estatico-dado-gigante",
+      "total_slides": 1,
+      "pauta_id": 1,
+      "titulo_noticia": "95% dos pilotos de IA não geram 1 real de retorno",
+      "tema": "MIT (2025): 95% dos pilotos corporativos de IA falham. Gartner: 40% dos projetos de IA agêntica serão cancelados até 2027. O problema não é a ferramenta — é começar pela ferramenta em vez do problema.",
+      "briefing_formatado": {
+        "tom": "provocativo",
+        "hook_sugerido": "dado",
+        "hook_texto": "95% dos pilotos de IA não geram 1 real de retorno. O erro não é a ferramenta.",
+        "dados_principais": [
+          "95% dos pilotos corporativos de IA não geram retorno mensurável (MIT, 2025)",
+          "38% das PMEs brasileiras contrataram consultoria antes do piloto (Nautis)",
+          "79% desse grupo não tinha nenhum agente em produção após 12 meses",
+          "40% dos projetos de IA agêntica cancelados até 2027 (Gartner)"
+        ],
+        "cta_final": "Se você tá planejando um piloto de IA, começa pelo problema. Ferramenta vem depois. Fala com a ERA4.",
+        "referencias_visuais": "Numero grande '95%' ocupando 60% do slide. Destaque vermelho (#ef4444). Texto secundário contrastando 'o erro nao eh a ferramenta'. F2 (Dado Gigante) mas com angulo de polemica.",
+        "notas": "Polemica controlada. Nao eh 'IA eh ruim', eh 'a maioria faz errado'. Dono de PME sente identificação imediata: 'gastei com tecnologia e nao vi resultado'. Se saves baixos revisitar angulo."
+      },
+      "stories": [
+        {
+          "hora": "12h",
+          "tipo": "dado",
+          "tema": "Custo de contratar errado",
+          "texto": "Das PMEs que contrataram consultoria ANTES do piloto: 79% não tinham nenhum agente em produção após 1 ano."
+        },
+        {
+          "hora": "18h",
+          "tipo": "pergunta",
+          "tema": "Erro comum",
+          "texto": "Você acha que o problema da IA é a ferramenta? Ou é começar pelo problema errado?"
+        }
+      ]
+    },
+    {
+      "dia": "quarta",
+      "data": "2026-07-01",
+      "tipo": "planejado",
+      "formato": "cta",
+      "formato_slug": "carrossel-diagnostico",
+      "total_slides": 1,
+      "pauta_id": 4,
+      "titulo_cta": "WhatsApp Business tem IA grátis. Por que você ainda perde venda?",
+      "tema": "Meta lançou Business AI (fev/2026): IA agêntica nativa do WhatsApp, gratuita, responde 24h. Mas NÃO substitui agente próprio — resolve FAQ, não operação completa. Diagnóstico: você está usando IA genérica ou IA que entende seu negócio?",
+      "briefing_formatado": {
+        "tom": "confiante",
+        "hook_sugerido": "diagnostico",
+        "hook_texto": "Seu WhatsApp agora responde sozinho. De graça. Mas não faz o que você acha que faz.",
+        "estrutura_diagnostico": [
+          "O que Business AI resolve: FAQ básica, catálogo de produtos, horário de funcionamento, resposta 24h para perguntas simples",
+          "O que Business AI NÃO resolve: verificar estoque em tempo real, processamento de pedido complexo, integração com sistema interno, follow-up personalizado, qualificação de lead",
+          "A diferença: IA genérica vs IA agêntica treinada no SEU negócio"
+        ],
+        "cta_final": "Se sua operação precisa de mais que responder 'qual o horário?', fala com a ERA4. A gente constrói agente que entende seu negócio. era4.com.br/contato",
+        "referencias_visuais": "F1 (Diagnóstico). Contrast visual: 'FAZ' (verde) vs 'NÃO FAZ' (vermelho). Numeros concretos de escopo. Tom educativo sem ser aula.",
+        "notas": "Polemica controlada. Nao eh 'Meta eh ruim', eh 'ferramenta gratuita tem escopo limitado'. Desmistifica a ideia de que 'IA grátis resolve tudo'. Posiciona ERA4 como solucao para complexidade que Business AI nao cobre."
+      },
+      "stories": [
+        {
+          "hora": "12h",
+          "tipo": "dado",
+          "tema": "Business AI gratuito",
+          "texto": "WhatsApp Business AI responde 24h, mostra catálogo, recomenda produto. E é grátis. Mas só faz PERGUNTA e RESPOSTA. Não processa pedido nem verifica estoque."
+        },
+        {
+          "hora": "18h",
+          "tipo": "cta",
+          "tema": "Diagnóstico ERA4",
+          "texto": "Sua IA responde ou sua IA vende? Se responde, o Business AI resolve. Se vende, a ERA4 constrói."
+        }
+      ]
+    },
+    {
+      "dia": "quinta",
+      "data": "2026-07-02",
+      "tipo": "planejado",
+      "formato": "estatico",
+      "formato_slug": "numero-gigante-contraste",
+      "total_slides": 1,
+      "pauta_id": 2,
+      "titulo_estatico": "Em 2023, IA custava R$50 mil. Em 2026? R$ 500/mês.",
+      "tema": "EuthopIA/Sebrae (abr/2026): 68% das PMEs brasileiras usam IA em 2026 vs 12% em 2023. Custo de entrada despencou de R$50k-200k para R$500-3.000/mês. O bloqueio não é mais dinheiro — é não saber por onde começar.",
+      "briefing_formatado": {
+        "tom": "provocativo",
+        "hook_sugerido": "comparacao",
+        "hook_texto": "Em 2023, IA custava R$50 mil pra começar. Em 2026? R$ 500/mês. O bloqueio não é dinheiro.",
+        "contraste_visual": {
+          "esquerda": "2023 — 12% usam IA — Custo: R$50k-200k",
+          "direita": "2026 — 68% usam IA — Custo: R$50k? Não: R$500-3k/mês",
+          "destaque": "68% vs 12% e R$50k vs R$500/mês"
+        },
+        "cta_final": "O preço não é mais desculpa. O problema é saber por onde começar. Fala com a ERA4.",
+        "referencias_visuais": "F6 (Número Gigante com Contraste) — NUNCA TESTADO. Dois numeros grandes lado a lado com cores contrastantes. Side-by-side comparison. Azul neon (#3b82f6) vs verde (#22c55e) ou laranja vs azul. Max 12 palavras no texto principal.",
+        "notas": "F6 eh PRIORIDADE DE TESTE. Se este formato gerar >5 saves, validamos 'dado + contraste = stop scroll'. Se nao gerar saves, revisamos se o contraste visual eh forte o suficiente. Dado é concreto e verificavel (EuthopIA, Sebrae)."
+      },
+      "stories": [
+        {
+          "hora": "12h",
+          "tipo": "dado",
+          "tema": "Adoção de IA em PMEs",
+          "texto": "12% em 2023 para 68% em 2026. Em 3 anos, a maioria das PMEs brasileiras adotou IA."
+        },
+        {
+          "hora": "18h",
+          "tipo": "pergunta",
+          "tema": "Seu status",
+          "texto": "Seu negócio tá mais pro lado de 12% ou pro lado de 68%? Qual o seu custo real pra começar?"
+        }
+      ]
+    },
+    {
+      "dia": "sexta",
+      "data": "2026-07-03",
+      "tipo": "planejado",
+      "formato": "descanso",
+      "formato_slug": null,
+      "total_slides": 0,
+      "pauta_id": null,
+      "tema": "Dia de descanso — disponivel para esporadico se hottopic urgente (max 2 esporadicos/semana)",
+      "briefing_formatado": {
+        "notas": "Sexta disponivel para post esporadico se hottopic-alert.json tiver urgencia ALTA com conexao IA/PME. Caso contrario, descansar."
+      },
+      "stories": [
+        {
+          "hora": "12h",
+          "tipo": "livre",
+          "tema": "Aguardando hottopic",
+          "texto": "Se houver hottopic de urgencia alta, aproveitar. Se nao, manter descanso."
+        },
+        {
+          "hora": "18h",
+          "tipo": "livre",
+          "tema": "Aguardando hottopic",
+          "texto": ""
+        }
+      ]
+    },
+    {
+      "dia": "sabado",
+      "data": "2026-07-04",
+      "tipo": "planejado",
+      "formato": "descanso",
+      "formato_slug": null,
+      "total_slides": 0,
+      "pauta_id": null,
+      "tema": "Dia de descanso — disponivel para esporadico se hottopic urgente",
+      "briefing_formatado": {
+        "notas": "Sabado disponivel para esporadico. Max 2 posts esporadicos na semana."
+      },
+      "stories": []
+    },
+    {
+      "dia": "domingo",
+      "data": "2026-07-05",
+      "tipo": "planejado",
+      "formato": "descanso",
+      "formato_slug": null,
+      "total_slides": 0,
+      "pauta_id": null,
+      "tema": "Descanso — planejamento da proxima semana a noite",
+      "briefing_formatado": {
+        "notas": "Nao ha posts nos domingos. SMM planeja a proxima semana a partir das 20h."
+      },
+      "stories": []
+    }
+  ],
+
+  "resumo_formatos_testar": {
+    "segunda": "F7 — Case Timeline (NUNCA TESTADO)",
+    "terca": "F2 — Dado Gigante com angulo polemico",
+    "quarta": "F1 — Diagnóstico (ja catalogado mas bom para CTA)",
+    "quinta": "F6 — Número Gigante com Contraste (NUNCA TESTADO)"
+  },
+
+  "metricas_pos_publicacao": {
+    "f7_case_timeline": "Retenção > 50% = formato validado como conversão primária",
+    "f6_numero_contraste": "Saves > 5 = dado+contraste = stop scroll confirmado",
+    "geral": "Após 48h de cada publicação, extrair saves/shares do Zernio e alimentar experiment-log para correlacionar formato visual com métricas"
+  },
+
+  "reservas_para_proxima_semana": [
+    {
+      "pauta_id": 5,
+      "titulo": "Instagram muda regra em 2026: saves e shares valem mais que views",
+      "motivo_reserva": "Auto-promo converte menos que conteúdo de dor. Deixar para semana que precisar de conteúdo evergreen."
+    }
+  ]
+}

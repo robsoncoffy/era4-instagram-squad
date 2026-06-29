@@ -1,8 +1,8 @@
 {
-  "data_geracao": "2026-06-23T08:30:00-03:00",
+  "data_geracao": "2026-06-29T08:15:00-03:00",
   "formato": "carrossel",
-  "padrao_visual_usado": "F1-diagnostico-adaptado-noticia",
-  "experimento_ativo": "null",
+  "padrao_visual_usado": "F7-case-timeline",
+  "experimento_ativo": "F7-case-timeline-primeiro-teste",
   "total_slides": 5,
   "slides": [
     {
@@ -11,35 +11,35 @@
       "arquivo_base": "~/era4-instagram-squad/assets/slide_1_base.png",
       "arquivo_final": "~/era4-instagram-squad/assets/slide_1.png",
       "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_1.png",
-      "prompt_usado": "Dark tech background #0a0a0f with subtle blue glow. Phone icon with message bubbles and red X. Clock icon. Gerado via Pillow (billing OpenAI esgotado).",
-      "alt_text": "Slide 1: Celular com mensagens não respondidas e relógio. Fundo escuro tech."
+      "prompt_usado": "Pillow fallback: dark tech aesthetic, blue accent radial gradient, grid pattern",
+      "alt_text": "Sua atendente perde 30% do dia no WhatsApp. Uma clínica resolveu isso. +22% agendamentos."
     },
     {
       "numero": 2,
-      "tipo": "dado",
+      "tipo": "problema",
       "arquivo_base": "~/era4-instagram-squad/assets/slide_2_base.png",
       "arquivo_final": "~/era4-instagram-squad/assets/slide_2.png",
       "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_2.png",
-      "prompt_usado": "Dark tech background with floating holographic icons and central AI node. Gerado via Pillow.",
-      "alt_text": "Slide 2: Ícones flutuantes de automação e IA conectados a um nó central."
+      "prompt_usado": "Pillow fallback: dark tech aesthetic, red warning glow, concentric circles",
+      "alt_text": "30% do dia respondendo mensagem repetida. Fila de cliente esperando. Agendamento perdido."
     },
     {
       "numero": 3,
-      "tipo": "comparacao",
+      "tipo": "solucao",
       "arquivo_base": "~/era4-instagram-squad/assets/slide_3_base.png",
       "arquivo_final": "~/era4-instagram-squad/assets/slide_3.png",
       "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_3.png",
-      "prompt_usado": "Split composition: left red warning vs right green solution. VS circle in center. Gerado via Pillow.",
-      "alt_text": "Slide 3: Comparativo lado a lado. Esquerda vermelho (custo), direita verde (solução grátis)."
+      "prompt_usado": "Pillow fallback: dark tech aesthetic, green accent, circuit/AI connection lines",
+      "alt_text": "Chatbot IA integrado ao agendamento. 24h, 7 dias. Transferência só pra caso complexo."
     },
     {
       "numero": 4,
-      "tipo": "consequencia",
+      "tipo": "resultado",
       "arquivo_base": "~/era4-instagram-squad/assets/slide_4_base.png",
       "arquivo_final": "~/era4-instagram-squad/assets/slide_4.png",
       "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_4.png",
-      "prompt_usado": "Clock dissolving into particles. Person silhouette walking away. Urgency mood. Gerado via Pillow.",
-      "alt_text": "Slide 4: Relógio se desfazendo em partículas. Silhueta de pessoa andando para longe."
+      "prompt_usado": "Pillow fallback: dark tech aesthetic, green success glow, ascending arcs",
+      "alt_text": "+22% agendamentos em 6 semanas. Atendente virou recepção. Zero cliente esperando."
     },
     {
       "numero": 5,
@@ -47,27 +47,9 @@
       "arquivo_base": "~/era4-instagram-squad/assets/slide_5_base.png",
       "arquivo_final": "~/era4-instagram-squad/assets/slide_5.png",
       "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/slide_5.png",
-      "prompt_usado": "Dark gradient with connected nodes representing automation network. Gerado via Pillow.",
-      "alt_text": "Slide 5: Nós conectados representando automação. CTA Fala com a ERA4."
+      "prompt_usado": "Pillow fallback: dark tech aesthetic, purple accent, balanced arcs",
+      "alt_text": "Não é sobre trocar gente por máquina. É sobre liberar gente pro que a máquina não faz."
     }
   ],
-  "stories": [
-    {
-      "numero": 8,
-      "tipo": "dica",
-      "arquivo_final": "~/era4-instagram-squad/assets/story_8.png",
-      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/story_8.png",
-      "alt_text": "Story dica: Business AI no WhatsApp - o que é"
-    },
-    {
-      "numero": 9,
-      "tipo": "cta",
-      "arquivo_final": "~/era4-instagram-squad/assets/story_9.png",
-      "url_publica": "https://raw.githubusercontent.com/robsoncoffy/era4-instagram-squad/main/assets/story_9.png",
-      "alt_text": "Story CTA: Fala com a ERA4"
-    }
-  ],
-  "erros": [
-    "gpt-image-1 billing_hard_limit_reached - fallback para Pillow"
-  ]
+  "erros": ["gpt-image-1 billing_hard_limit_reached - usado fallback Pillow para todas as 5 imagens base"]
 }

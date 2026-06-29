@@ -1,45 +1,117 @@
 {
-  "data_geracao": "2026-06-08T08:00:00-03:00",
+  "briefing_id": "radar-2026-06-28",
+  "data": "2026-06-28",
+  "semana": "28-06 a 04-07-2026",
+  "modo": "semanal",
+  "fontes_consultadas": [
+    "Olhar Digital (24/02/2026, 05/11/2025)",
+    "OpenClaw Brasil (01/02/2026)",
+    "EuthopIA (19/04/2026)",
+    "Algoritmo Diário (22/06/2026)",
+    "Utilia.ai",
+    "SunEdigital (formatos Instagram jun/2026)",
+    "Web search: formatos Instagram 2026"
+  ],
   "pautas": [
     {
-      "id": 1,
-      "titulo": "Meta lancou IA no WhatsApp que atende e vende 24h sem parar",
-      "fonte": "Canaltech, Mundo do Marketing",
-      "relevancia": "Brasileiro espera no maximo 5 min antes de desistir da compra. PMEs perdem venda por demora no atendimento, nao por preco.",
-      "angulo_sugerido": "Mostrar o contraste entre IA atendendo em segundos vs PME demorando 30 min. Dado de 40% de leads perdidos por demora.",
-      "categoria": "tendencia"
+      "rank": 1,
+      "categoria": "polemica",
+      "titulo": "95% dos pilotos de IA não geram retorno — e o erro não é a ferramenta",
+      "angulo": "Dado do MIT (2025) mostra que 95% dos pilotos corporativos de IA não geram retorno mensurável. No Brasil, 38% das PMEs que contrataram consultoria validar antes não tinham nenhum agente em produção após 12 meses. O problema não é a tecnologia — é começar pela ferramenta em vez do problema.",
+      "dados": [
+        "95% dos pilotos corporativos de IA não geram retorno mensurável (MIT, 2025)",
+        "38% das PMEs brasileiras contrataram consultoria antes do piloto (Nautis)",
+        "79% desse grupo não tinha nenhum agente em produção após 12 meses",
+        "40% dos projetos de IA agêntica serão cancelados até 2027 (Gartner)"
+      ],
+      "hook_sugerido": "95% dos pilotos de IA não geram 1 real de retorno. O erro quase nunca é a ferramenta.",
+      "formato_sugerido": "F2 — Estático 'Dado Gigante'",
+      "formato_slug": "estatico-dado-gigante",
+      "duracao_relevancia": "4-6 semanas (tendência estrutural, não é notícia quente)",
+      "filtro_pme": "APROVADO — Dono de distribuidora identifica-se na dor de ter gastado com tecnologia sem ver resultado. Gera identificação imediata.",
+      "observacao": "Algoritmo Diário publicou isso em 22/06 e EuthopIA complementa com casos reais de sucesso. Ângulo diferenciado: não é 'IA é boa', é 'a maioria tá fazendo errado'."
     },
     {
-      "id": 2,
-      "titulo": "75% das PMEs brasileiras ainda nao usam IA",
-      "fonte": "Mobile Time / Startse",
-      "relevancia": "Maioria das PMEs esta ficando para tras. Quem adotar agora ganha vantagem competitiva antes de virar obrigatoriedade.",
-      "angulo_sugerido": "Urgencia: enquanto 75% nao usa, os 25% que usam estao faturando mais e gastando menos. Ser early adopter ou ficar para tras.",
-      "categoria": "dado"
+      "rank": 2,
+      "categoria": "dado",
+      "titulo": "68% das PMEs brasileiras já usam IA — e o custo caiu de R$50k para R$500/mês",
+      "angulo": "Dado EuthopIA (abr/2026): 68% das PMEs brasileiras usam IA em 2026 vs 12% em 2023. Custo de entrada despencou de R$50k-200k (2023) para R$500-3.000/mês (2026). O bloqueio não é mais dinheiro — é não saber por onde começar.",
+      "dados": [
+        "68% das PMEs brasileiras usam IA em 2026 vs 12% em 2023 (EuthopIA, Sebrae)",
+        "Custo: de R$50k-200k (2023) para R$500-3.000/mês (2026)",
+        "56% focam IA em serviço ao cliente",
+        "72% de diretos dizem que IA agiliza operações e reduz erros",
+        "n8n self-hosted = R$0; n8n Cloud Starter = ~R$140/mês"
+      ],
+      "hook_sugerido": "Em 2023, IA custava R$50 mil pra começar. Em 2026? R$ 500/mês. O bloqueio não é dinheiro.",
+      "formato_sugerido": "F6 — Estático 'Número Gigante com Contraste'",
+      "formato_slug": "numero-gigante-contraste",
+      "duracao_relevancia": "6-8 semanas (janela de decisão para PMEs que ainda não adotaram)",
+      "filtro_pme": "APROVADO — O dono de distribuidora que ainda não usa IA vê que o custo não é mais desculpa. Paralelo: divide com 'mas 95% fazem errado' (Pauta 1).",
+      "observacao": "F6 ainda não foi testado na prática (know_gaps lessons-learned). Esta semana é a oportunidade ideal. Se der saves, valida o formato."
     },
     {
-      "id": 3,
-      "titulo": "IA diagnostica financas de PME em 10 minutos",
-      "fonte": "Mtagora",
-      "relevancia": "Dono de PME nao tem tempo nem equipe pra analisar dados financeiros. IA faz isso em minutos e aponta onde esta perdendo dinheiro.",
-      "angulo_sugerido": "Voce sabe exatamente quanto esta perdendo por ineficiencia? IA descobre em 10 min o que levaria semanas pra um contador.",
-      "categoria": "ferramenta"
+      "rank": 3,
+      "categoria": "case",
+      "titulo": "Clínica veterinária com 8 funcionários ganhou +22% em agendamentos com IA no WhatsApp",
+      "angulo": "Atendente gastava 30% do dia respondendo WhatsApp. Chatbot IA integrado ao agendamento, 24/7, com transferência só para casos complexos. Resultado: +22% em agendamentos e atendente liberada para recepção. Caso real EuthopIA — 8 funcionários, implementação em 3-6 semanas.",
+      "dados": [
+        "+22% em agendamentos (Clínica Veterinária, 8 funcionários)",
+        "Atendente gastava 30% do dia no WhatsApp → liberada para recepção",
+        "Implementação: 3-6 semanas (briefing ao go-live)",
+        "ROI de atendimento 24h com agentes: 47% de redução em chamados (OpenClaw)"
+      ],
+      "hook_sugerido": "Sua atendente perde 3% do dia no WhatsApp. Uma clínica com 8 funcionários resolveu isso e ganhou 22% mais agendamentos.",
+      "formato_sugerido": "F7 — Carrossel 'Case Timeline'",
+      "formato_slug": "case-timeline",
+      "duracao_relevancia": "4 semanas (case perde frescor após 1 mês)",
+      "filtro_pme": "APROVADO — Clínica de 8 funcionários é o retrato do cliente ERA4. PME se vê no caso. F7 não foi testado ainda.",
+      "observacao": "Caso real verificável (EuthopIA publicou como portfolio). Timeline funcional: problema → implementação → resultado. Slide final com CTA ERA4 natural."
     },
     {
-      "id": 4,
-      "titulo": "Anthropic mira PMEs com Claude mais acessivel",
-      "fonte": "Anthropic / TechCrunch",
-      "relevancia": "Big techs brigando pelo mercado de PME significa que esta ficando barato e facil adotar IA. Janela de oportunidade.",
-      "angulo_sugerido": "Quando as grandes brigam pelo pequeno, o pequeno ganha poder de fogo. IA que antes era so de big tech agora cabe no orcamento de PME.",
-      "categoria": "tendencia"
+      "rank": 4,
+      "categoria": "ferramenta",
+      "titulo": "WhatsApp Business agora tem IA agêntica nativa — GRÁTIS, mas não substitui agente seu",
+      "angulo": "Meta lançou Business AI no Brasil (fev/2026): IA agêntica nativa do WhatsApp que responde 24h, recomende produtos do catálogo, faz broadcast comercial. É gratuito para PMEs com catálogo cadastrado. Limitação: IA genérica, não executa fluxos complexos (não verifica estoque, não processa pedido, não integra com sistema). Dono precisa entender: Business AI resolve FAQ, não operação.",
+      "dados": [
+        "Business AI lançado no Brasil em fevereiro/2026 (Meta/Olhar Digital)",
+        "Requisitos: WhatsApp Business em português + 1 item no Catálogo",
+        "Gratuito (até o momento do anúncio)",
+        "PMEs que usam n8n/Make têm fluxos mais complexos que Business AI não cobre",
+        "40% dos projetos de IA agêntica serão cancelados até 2027 (Gartner)"
+      ],
+      "hook_sugerido": "Seu WhatsApp agora responde sozinho. De graça. Mas não faz o que você acha que faz.",
+      "formato_sugerido": "F1 — Carrossel 'Diagnóstico'",
+      "formato_slug": "carrossel-diagnostico",
+      "duracao_relevancia": "3-4 semanas (janela antes que outro curation esgote o tema)",
+      "filtro_pme": "APROVADO — Desmistificação de 'WhatsApp grátis resolve tudo'. Dono que IA FAQ, não vendas complex para ERA4 naturalmente.",
+      "observacao": "Polemica controlada. Não é 'a Meta vai roubar seu negócio', é 'a ferramenta X resolve o problema Y'. F1 (diagnóstico natural)."
     },
     {
-      "id": 5,
-      "titulo": "Brasil lidera adocao de IA na America Latina",
-      "fonte": "Monitor Mercantil",
-      "relevancia": "Pais avanca em IA mas a maioria das empresas brasileiras ainda esta no Excel e WhatsApp manual. Gap entre pais e empresa individual.",
-      "angulo_sugerido": "O pais esta correndo com IA. Sua empresa esta andando de bike. O abismo entre quem automatiza e quem nao automatiza so cresce.",
-      "categoria": "dado"
+      "rank": 5,
+      "categoria": "dado",
+      "titulo": "Instagram muda regra em 2026: saves e shares valem mais que views. O que muda pro seu conteúdo",
+      "angulo": "Instagram 2026: algoritmo agora prioriza retention e DM shares para contas comerciais. Carrossel com 7+ slides supera estático em saves. Reels servem para alcance (não-followers), carrossel para nutrir (followers existentes). 200 likes + 50 saves > 2000 likes + 3 saves para o algoritmo.",
+      "dados": [
+        "Carrossel com 7+ slides supera estático em engajamento (SunEdigital, jun/2026)",
+        "Reels: algoritmo prioriza retention sobre viralidade (hook nos 2s iniciais)",
+        "Stories: mecanismo de nutrição de audiência quente (não distribuição primária)",
+        "200 likes + 50 saves > 2000 likes + 3 saves"
+      ],
+      "hook_sugerido": "Seu concorrente não tá postando mais. Tá postando com 7 slides. E salvando mais que você curte.",
+      "formato_sugerido": "F3 — Sequência 'Antes vs Depois'",
+      "formato_slug": "antes-vs-depois",
+      "duracao_relevancia": "8 semanas (mudança de algoritmo é duradoura)",
+      "filtro_pme": "APROVADO — Auto-referencial Positivo: ERA4 pratica o que ensina. Mostra que entende de conteúdo de negócio. Mas auto-promo sempre converte menos. Rank 5.",
+      "observacao": "Auto-promo controlada. Funciona como 'prova social de que sabemos o que fazemos', mas gerou saves no passado. Deixar como última pauta."
     }
-  ]
+  ],
+  "insight_estrategico": {
+    "baseado_em": "lessons-learned.json (performance_posts, radar_insights, know_gaps)",
+    "analise_posts_anteriores": "Posts publicados em 07/06 tiveram engajamento zero (0-1 likes, reach 2-3). Hipóteses do Radar nas semanas anteriores: posts genéricos sem dor específica não param o scroll. Briefings anteriores recomendaram F6 (Número Gigante com Contraste) e F1 (Diagnóstico) como formatos prioritários — mas nenhum foi testado na prática.",
+    "tendencia_formatos_2026": "Carrossel > Reels em saves e shares. Formato vertical 4:5 mantém 5.70% engagement. Carrossel com 7+ slides supera estático. Reels servem para alcance, carrossel para conversão. F6 e F7 ainda não testados na prática.",
+    "recomendacao_foco_semana": "Testar F6 (Número Gigante com Contraste) na Pauta 2 — dado 12% vs 68% cria tensão visual perfeita. Testar F7 (Case Timeline) na Pauta 3 — caso com timeline mensal de resultados. Se F6 gerar saves acima da média, validamos que dado + contraste = stop scroll. Se F7 retention > 50%, cases em timeline são nosso formato de conversão primário.",
+    "gap_identificado": "Ainda não correlacionamos padrão visual (P1-P6) com métricas do Zernio. Dados analytics disponíveis mas não consultados. Pós-publicação desta semana: extrair saves/shares por formato e alimentar experiment-log.",
+    "feedback_robmeta": "Se F6 não gerar saves, o problema é a pauta, não o formato. Se F7 não reter, o case não é próximo o suficiente do público."
+  }
 }

@@ -39,16 +39,26 @@
       "resultado_visual": "pendente",
       "feedback_robson": "pendente",
       "consolidar": false
+    },
+    {
+      "data": "2026-06-29",
+      "post_id": "case-clinica-veterinaria-f7-timeline",
+      "padrao_base": "F7-case-timeline",
+      "elemento_testado": "F7 — Case Timeline com Pillow fallback (primeiro teste)",
+      "descricao": "Carrossel 5 slides: Slide 1 hook (30% dia WhatsApp), Slide 2 problema (fila esperando), Slide 3 solucao (chatbot IA), Slide 4 resultado (+22% agendamentos), Slide 5 licao + CTA. Imagens via Pillow (gpt-image-1 billing esgotado). Overlay PIL em todos os slides.",
+      "resultado_visual": "pendente",
+      "feedback_robson": "pendente",
+      "consolidar": false
     }
   ],
   "padrao_atual": {
     "estatico": "F6-numero-gigante-contraste",
-    "carrossel": "F1-diagnostico-adaptado"
+    "carrossel": "F7-case-timeline"
   },
   "proximo_teste": {
-    "elemento": "F7-case-timeline",
+    "elemento": "F6-numero-gigante-contraste",
     "slide": 1,
-    "descricao": "Testar F7 (Case Timeline) com Pauta 2 (case TechSolve: R$47k → R$142k em 8 meses). Carrossel 6 slides com timeline mês a mês.",
-    "semana": "2026-W25"
+    "descricao": "Testar F6 (Numero Gigante com Contraste) na terca-feira com Pauta 1 (95% falham). Estatico com dado forte e contraste visual.",
+    "semana": "2026-W27"
   }
 }

@@ -1,16 +1,16 @@
 {
-  "data_criacao": "2026-06-23T08:00:00-03:00",
-  "pauta_original": "Meta libera Business AI no WhatsApp — e mata seu chatbot terceirizado",
-  "pauta_original_id": 2,
-  "angulo": "Comparacao direta: operacao manual atual vs Business AI nativo. O dono de PME esta pagando R$200-500/mes em chatbot enquanto a Meta entregou a mesma coisa de graca dentro do WhatsApp. A dor e o desperdicio silencioso.",
+  "data_criacao": "2026-06-29T08:00:00-03:00",
+  "pauta_original": "Clínica veterinária com 8 funcionários ganhou +22% em agendamentos com IA no WhatsApp",
+  "pauta_original_id": 3,
+  "angulo": "Case real de PME (8 funcionários) que eliminou gargalo de atendimento no WhatsApp com IA agêntica. Timeline de transformação: problema → solução → resultado. O dono de PME se vê no caso porque é o mesmo perfil de cliente ERA4.",
   "formato": "carrossel",
   "slides": 5,
   "storytelling": {
-    "hook": "Seu cliente mandou mensagem ontem a noite. A resposta saiu hoje de manha.",
-    "problema": "Enquanto voce paga R$300/mes em chatbot, a Meta entregou Business AI de graca no WhatsApp",
-    "solucao": "Business AI nativo: resposta em 2s, recomendacao de catalogo, sem custo extra",
-    "cta": "Fala com a ERA4 — era4.com.br/contato"
+    "hook": "Sua atendente perde 30% do dia no WhatsApp. Uma clínica com 8 funcionários resolveu isso.",
+    "problema": "Atendente sobrecarregada com mensagens repetidas, fila de clientes esperando, agendamentos perdidos",
+    "solucao": "Chatbot IA integrado ao agendamento, 24/7, transferência só para caso complexo",
+    "cta": "Fala com a ERA4. Sua primeira automação em 48h. era4.com.br/contato"
   },
-  "tom": "urgente",
-  "observacoes": "Noticia real com fontes: Olha Digital (fev/2026) + Invent. Formato F1 adaptado para carrossel de noticia. Slide 1: hook com contraste de tempo (ontem a noite vs hoje de manha). Slide 2: dado 200M+ empresas + 98% open rate. Slide 3: comparativo custo (R$300/mes vs graça). Slide 4: o risco de nao agir. Slide 5: CTA direto. Fontes: Forbes, Olha Digital, useinvent.com. Dados: 200M+ empresas, 98% open rate, conversoes ate 60%, US$45B em vendas via WhatsApp em 2026."
+  "tom": "educativo",
+  "observacoes": "F7 (Case Timeline) NUNCA TESTADO. Timeline visual de evolução. Números grandes em cada slide. Dark tech aesthetic ERA4. Slide 1 precisa parar o scroll com número + identificação imediata. Último slide: lição + CTA natural, não forçado. Se retention < 50%, revisar se o case é próximo o suficiente do público."
 }

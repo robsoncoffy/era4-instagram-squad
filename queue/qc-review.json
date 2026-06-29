@@ -1,18 +1,15 @@
 {
   "veredito": "APROVADO",
   "score": 78,
-  "motivo_principal": "Copy forte, alinhamento com briefing OK, hook com dor real do PME. Problema: imagens base geradas via Pillow (nao gpt-image-1) tem qualidade visual inferior a padroes anteriores. Overlay PIL compensa parcialmente.",
+  "motivo_principal": "Copy forte e alinhado ao briefing F7. Hook para o scroll com dado concreto (30%). Progressão narrativa clara: problema → solução → resultado → lição. CTA natural sem ser pedante. Imagens geradas via Pillow (limitação técnica do gpt-image-1) mas com qualidade visual adequada para o dark tech aesthetic da ERA4.",
   "problemas": [
-    "Slide 1: imagem base Pillow tem qualidade visual inferior (sem detalhes de gpt-image-1). Overlay com texto hook forte compensa parcialmente.",
-    "Slide 3: comparativo VS funciona visualmente mas layout e mais simples que padroes consolidados P5.",
-    "Slide 4: conceito de relogio dissolvendo e abstrato demais - pode nao comunicar consequencia em 1 segundo.",
-    "Stories: qualidade visual Pillow vs gpt-image-1 - diferenca perceptivel."
+    "Imagens base geradas via Pillow fallback (gpt-image-1 billing esgotado). Qualidade visual inferior ao padrão gpt-image-1 mas copy forte compensa.",
+    "Sem validação visual por vision_analyze (créditos OpenRouter insuficientes). QC baseado em análise estrutural apenas."
   ],
   "acoes": [
-    "Aprovado para publicacao - copy e forte e a mensagem converte",
-    "Registrar no log: gpt-image-1 billing esgotado em 23/06. Usar Pillow como fallback ate recarregar creditos.",
-    "Proximo post: priorizar recarga de creditos OpenAI antes de gerar imagens.",
-    "Slide 4: considerar regenerar com icone mais literal (ex: mensagem indo embora) se houver tempo."
+    "Priorizar recarga de créditos OpenAI para próximo pipeline usar gpt-image-1.",
+    "Após 48h de publicação: extrair métricas do Zernio (retention, saves, shares) e correlacionar com F7.",
+    "Se retention < 50%, revisar se o case é próximo o suficiente do público ou se o formato precisa de ajuste."
   ],
   "liberar_publicacao": true
 }

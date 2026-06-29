@@ -1,5 +1,5 @@
 {
-  "periodo": "2026-06-08",
+  "periodo": "2026-06-29",
   "comentarios_respondidos": 0,
   "dms_enviadas": 0,
   "follows_de_volta": 0,
@@ -9,10 +9,9 @@
   "tempo_medio_resposta_min": 0,
   "top_posts_engajados": [],
   "insights": [
-    "Nenhum comentário recebido nos 3 posts publicados em 07/06.",
-    "Posts publicados há ~36-40h ainda não geraram engajamento orgânico.",
-    "Possível cauda(reach) muito baixo (2-3 contas alcançadas por post) indica que o algoritmo ainda não distribuiu o conteúdo.",
-    "Followers atuais: 5. Base pequena limita alcance orgânico.",
-    "Sugestão: avaliar tráfego pago ou ações de engajamento externo (comentar em perfis estratégicos, collabs) para acelerar distribuição."
+    "Conta com zero comentários em todos os posts de carrossel verificáveis",
+    "Stories nao suportam consulta de comentários via API Zernio",
+    "Engajamento orgânico da conta era4.ia está criticamente baixo",
+    "Recomendacao: revisar estrategia de conteudo para gerar conversa ou investir em ads para trazer audiência qualificada"
   ]
 }

@@ -97,6 +97,14 @@
       "engagementRate": 12.5,
       "melhor_elemento": "a_definir",
       "pior_elemento": "a_definir"
+    },
+    {
+      "data": "2026-06-29",
+      "agente": "Squad",
+      "situacao": "Pipeline F7 Case Timeline executado com Pillow fallback",
+      "licao": "F7 (Case Timeline) executado pela primeira vez. Carrossel 5 slides com copy baseada em caso real de clínica veterinária (8 funcionários, +22% agendamentos). Imagens via Pillow porque gpt-image-1 billing esgotado. QC aprovou com score 78 (sem validacao visual). Draft criado no Zernio aguardando aprovacao do Robson.",
+      "fonte": "pipeline 29/06",
+      "aplicado": true
     }
   ],
   "know_gaps": [
@@ -133,6 +141,12 @@
       "briefing": "semana_21-26_junho",
       "insight": "Engajamento zero persiste (semana 7/jun). Hipotese: posts eram genericos (definicao de IA, base inativa), sem dor especifica do PME. Esta semana: todas as pautas comecam com dado concreto ou cenario que geracao identificacao imediata. F6 (Numero Gigante com Contraste) e a candidata ideal para Pauta 1 (Gartner 40%). F1 (Diagnostico) para Pauta 2 (WhatsApp Business AI). Se nao paramos o scroll com dado, nao paramos com achismo.",
       "acao_sugerida": "Testar F6 com Pauta 1 (dado 44%->40% contraste) e F1 com Pauta 2 (WhatsApp Business AI). Correlacionar padrao visual com metricas de saves/shares do Zernio. Se F6 nao gerar saves, o problema e a pauta, nao o formato."
+    },
+    {
+      "data": "2026-06-28",
+      "briefing": "semana_28-06 a 04-07",
+      "insight": "Duas semanas de dados e zero engajamento. Padroes observados: (1) pautas genericas ('IA e o futuro', 'base inativa') nunca pararam o scroll; (2) dados especificos (95% falham, R$500/mes, +22% agendamentos) apareceram nos briefings mas nunca foram PUBLICADOS em formato otimizado. Recomendacao semana 28/06: F6 com contraste 12% vs 68% (EuthopIA dado) + F7 Case Timeline clinica veterinaria 8 funcionarios. Estes dois formatos nunca foram testados. Se nao testarmos agora, sera a 3a semana sem validacao empirica.",
+      "acao_sugerida": "Publicar Pauta 2 (F6) e Pauta 3 (F7) esta semana. Extrair saves/shares do Zernio apos 48h e correlacionar com formato. Se F6 gerar >5 saves, dado+contraste e validado. Se F7 retention >50%, case timeline e nosso formato primario de conversao."
     }
   ]
 }
